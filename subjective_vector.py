@@ -237,13 +237,16 @@ if __name__ == '__main__':
     '''
     #練習　スモールサイズ用
     file_name = './datasets/50D30K_300small_size.txt'
+    
     mssg_word_vec = []
     mssg_word_info = []
     single_word_vec = []
     single_word_info =[]
     count = 1
     start_index = 0
-    with gzip.open(file_name,"rt","utf-8") as fi:
+#本番用    
+#    with gzip.open(file_name,"rt","utf-8") as fi:
+     with open(file_name,"r","utf-8") as fi:
         for line in fi:
             #初期設定
             if count == 1:

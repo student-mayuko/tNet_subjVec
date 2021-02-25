@@ -231,7 +231,12 @@ def is_num_judge(s):
 
 if __name__ == '__main__':
     #30Kならマルチセンスが30000個、単語数自体は99156
+    #本番
+    '''
     file_name = './datasets/vectors.MSSG.50D.30K.gz'
+    '''
+    #練習　スモールサイズ用
+    file_name = './datasets/50D30K_300small_size.txt"
     mssg_word_vec = []
     mssg_word_info = []
     single_word_vec = []

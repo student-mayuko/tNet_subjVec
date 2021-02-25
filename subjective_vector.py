@@ -236,7 +236,7 @@ if __name__ == '__main__':
     file_name = './datasets/vectors.MSSG.50D.30K.gz'
     '''
     #練習　スモールサイズ用
-    file_name = './datasets/50D30K_300small_size.txt"
+    file_name = './datasets/50D30K_300small_size.txt'
     mssg_word_vec = []
     mssg_word_info = []
     single_word_vec = []

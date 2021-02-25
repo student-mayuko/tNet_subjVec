@@ -53,11 +53,19 @@ if __name__ == '__main__':
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
     with open('./datasets/50D30K_3000small_size.txt',mode='w') as f1:
         for index in range(0,3000):
-            f1.write(str(mssg_word_info[index])+"\n")
-            for j in range(0,7):
-                f1.write(str(mssg_word_vec[index*7+j])+"\n")
+            for j in range(len(mssg_word_info[index])):
+                f1.write(mssg_word_info[index][j]+" ")
+            f1.write("\n")
+            for k in range(0,7):
+                for l in range(len(mssg_word_vec[index*7+k])):    
+                    f1.write(mssg_word_vec[index*7+k][l]+" ")
+                f1.write("\n")
     with open('./datasets/50D30K_300small_size.txt',mode='w') as f2:
         for index in range(0,300):
-            f2.write(str(mssg_word_info[index])+"\n")
-            for j in range(0,7):
-                f2.write(str(mssg_word_vec[index*7+j])+"\n")
+            for j in range(len(mssg_word_info[index])):
+                f2.write(mssg_word_info[index][j]+" ")
+            f2.write("\n")
+            for k in range(0,7):
+                for l in range(len(mssg_word_vec[index*7+k])):    
+                    f2.write(mssg_word_vec[index*7+k][l]+" ")
+                f2.write("\n")

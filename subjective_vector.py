@@ -136,6 +136,9 @@ class SGD:
                 print('grad:',self.grad,',',type(self.grad))
                 self.M -= self.eta * self.grad
                 after_loss = self.loss
+                print("before:",before_loss)
+                print("after:",after_loss)
+                print(before_loss == after_loss)
             #(x,y)の更新を行う
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)    
             after_word_x,after_word_y = x,y       

@@ -36,9 +36,9 @@ class SGD:
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate12 = (np.linalg.norm((self.M*vec1-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec1-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
-            shrink_rate01 = (np.linalg.norm(torch.mm(self.M,vec0)-torch.mm(self.M,vec1),ord=2)**2)/(np.linalg.norm((vec0-vec1),ord=2)**2)
-            shrink_rate02 = (np.linalg.norm(torch.mm(self.M,vec0)-torch.mm(self.M,vec2),ord=2)**2)/(np.linalg.norm((vec0-vec2),ord=2)**2)
-            shrink_rate12 = (np.linalg.norm(torch.mm(self.M,vec1)-torch.mm(self.M,vec2),ord=2)**2)/(np.linalg.norm((vec1-vec2),ord=2)**2)
+            shrink_rate01 = (torch.norm(self.M*vec0-self.M*vec1)**2)/(torch.norm(vec0-vec1)**2)
+            shrink_rate02 = (torch.norm(self.M*vec0-self.M*vec2)**2)/(torch.norm(vec0-vec2)**2)
+            shrink_rate12 = (torch.norm(self.M*vec1-self.M*vec2)**2)/(torch.norm(vec1-vec2)**2)
             if min([shrink_rate01,shrink_rate02,shrink_rate12])==shrink_rate01:
                 x_vec.append(vec0)
                 y_vec.append(vec1)
@@ -68,9 +68,9 @@ class SGD:
             X,Y=word_vec[2*i],word_vec[2*i+1]
             if key == "loss":
                 #word_loss = np.linalg.norm((self.M*X-Y).to('cpu').detach().numpy().copy(),ord=2)**2
-                word_loss = np.linalg.norm(torch.mm(self.M,X)-Y,ord=2)**2
+                word_loss = torch.norm(self.M*X-Y)**2
             if key == "grad":
-                word_loss = 2*torch.mm((torch.mm(self.M,X)-Y),X)
+                word_loss = 2*((self.M*X-Y)*X)
             loss_sum += word_loss
         return loss_sum
 
@@ -104,8 +104,6 @@ class SGD:
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate12 = (np.linalg.norm((self.M*vec1-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec1-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
-            print(self.M*vec0)
-            print(torch.norm(self.M*vec0))
             shrink_rate01 = ((torch.norm(torch.matmul(self.M,vec0))-torch.matmul(self.M,vec1))**2)/(torch.norm(vec0-vec1)**2)
             shrink_rate02 = ((torch.norm(torch.matmul(self.M,vec0))-torch.matmul(self.M,vec2))**2)/(torch.norm(vec0-vec2)**2)
             shrink_rate12 = ((torch.norm(torch.matmul(self.M,vec1))-torch.matmul(self.M,vec2))**2)/(torch.norm(vec1-vec2)**2)
@@ -131,7 +129,7 @@ class SGD:
                 learn_count += 1
                 before_loss = self.loss                                    
                 #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 
-                self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)+np.linalg.norm((self.M*y-y),ord=2)**2 
+                self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)+torch.norm((self.M*y-y),ord=2)**2 
                 self.grad = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"grad",k_size)+2*(self.M*y-y)*y
                 print(learn_count,"回目の学習")
                 print('loss:',self.loss,',',type(self.loss))
@@ -293,14 +291,3 @@ if __name__ == '__main__':
         for j in range(int(mssg_word_start_index[i]),int(mssg_word_start_index[i])+int(mssg_word_info[i][1])):
             print(mssg_word_vec[j])
     '''
-    
-
-
-
-    
-    
-
-    
-
-
-    

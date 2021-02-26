@@ -89,8 +89,6 @@ class SGD:
         vec_index_candidate = random.sample([0,1,2],2)       
         x_index,y_index=vec_index_candidate[0],vec_index_candidate[1]        
         x,y=torch.tensor(vec_candidate[x_index],dtype=torch.float64,device=self.device),torch.tensor(vec_candidate[y_index],dtype=torch.float64,device=self.device)
-        print(self.device)
-        print(x.get_device())
         self.M = torch.div(y,x)
         before_loss,after_loss=0,1000
         before_word_x,before_word_y = x,y
@@ -100,6 +98,8 @@ class SGD:
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = []
         k_size = 60
+        print(len(self_word_info))
+        print(len(self_word_vec))
         #疑似マルチセンスペアの初期設定
         for i in range(len(self_word_info)):
             vec0,vec1,vec2=self_word_vec[3*i],self_word_vec[3*i+1],self_word_vec[3*i+2]

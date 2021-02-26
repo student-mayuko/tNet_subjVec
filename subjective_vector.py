@@ -80,7 +80,7 @@ class SGD:
     #shrink_rate呼び出し多すぎだからタイミング変えようね
     def fit(self, word_info, word_vec):
         #初期設定
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         for i in range(len(word_vec)):
             for j in range(len(word_vec[i])):
                 word_vec[i][j] = float(word_vec[i][j])

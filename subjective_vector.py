@@ -141,12 +141,9 @@ class SGD:
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)    
             after_word_x,after_word_y = x,y       
             print(str(self.k_size_word_info))
-        with open('subjVec_result.txt','w') as f2:    
-            for index in range(len(self.M)):
-                f2.write(self.M.item()[index]+" ")
-            f2.write("\n")
-            for index in range(len(self.M)):
-                f2.write(torch.eig(self.M).item()[index]+" ")
+        with open('subjVec_result.txt','w') as f2: 
+            f2.write((self.M).numpy()+"\n")
+            f2.write((torch.eig(self.M)).numpy())
 
 '''
 class Adam:

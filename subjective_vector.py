@@ -103,7 +103,7 @@ class SGD:
         #疑似マルチセンスペアの初期設定
         for i in range(len(self_word_info)):
             vec0,vec1,vec2=self_word_vec[3*i],self_word_vec[3*i+1],self_word_vec[3*i+2]
-            print(len(vec0),',',len(vec1),',',len(vec2))
+            print(torch.mm(self.M,vec0))
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate12 = (np.linalg.norm((self.M*vec1-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec1-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)

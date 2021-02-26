@@ -142,9 +142,9 @@ class SGD:
             after_word_x,after_word_y = x,y       
             print(str(self.k_size_word_info))
         fn = open('subjVec_result.txt','w')
-        fn.write(str(self.M))
+        fn.write(str(self.M.item()))
         fn.write('\n')
-        fn.write(str(torch.eig(self.M)))
+        fn.write(str(torch.eig(self.M).item()))
         fn.close()
 
 '''

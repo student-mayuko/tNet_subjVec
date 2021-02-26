@@ -119,14 +119,14 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 100000:
+        while while_count < 100:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
             before_word_x,before_word_y = x,y
             #損失と勾配を算出。その後Mの更新を行う
             #before_loss == after_lossになってもFalse判定を受けてる。できれば直したい。
-            while learn_count < 10000:
+            while learn_count < 15000:
                 learn_count += 1
                 before_loss = self.loss                                    
                 #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 

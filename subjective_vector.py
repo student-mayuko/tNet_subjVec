@@ -98,16 +98,14 @@ class SGD:
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = []
         k_size = 60
-        print(self.M)
-        print(len(self.M))
         #疑似マルチセンスペアの初期設定
         for i in range(len(self_word_info)):
             vec0,vec1,vec2=self_word_vec[3*i],self_word_vec[3*i+1],self_word_vec[3*i+2]
-            print(torch.mm(self.M,vec0))
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate12 = (np.linalg.norm((self.M*vec1-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec1-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
-            shrink_rate01 = (np.linalg.norm(torch.mm(self.M,vec0)-torch.mm(self.M,vec1),ord=2)**2)/(np.linalg.norm((vec0-vec1),ord=2)**2)
+            shrink_rate01 = (np.linalg.norm(torch.matmul(self.M,vec0)-torch.matmul(self.M,vec1),ord=2)**2)/(np.linalg.norm((vec0-vec1),ord=2)**2)
+            print(shrink_rate01)
             shrink_rate02 = (np.linalg.norm(torch.mm(self.M,vec0)-torch.mm(self.M,vec2),ord=2)**2)/(np.linalg.norm((vec0-vec2),ord=2)**2)
             shrink_rate12 = (np.linalg.norm(torch.mm(self.M,vec1)-torch.mm(self.M,vec2),ord=2)**2)/(np.linalg.norm((vec1-vec2),ord=2)**2)
             if min([shrink_rate01,shrink_rate02,shrink_rate12])==shrink_rate01:

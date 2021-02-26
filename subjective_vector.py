@@ -98,10 +98,9 @@ class SGD:
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = []
         k_size = 60
-        print(len(self_word_info))
-        print(len(self_word_vec))
         #疑似マルチセンスペアの初期設定
         for i in range(len(self_word_info)):
+            print(i,"週目")
             vec0,vec1,vec2=self_word_vec[3*i],self_word_vec[3*i+1],self_word_vec[3*i+2]
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)

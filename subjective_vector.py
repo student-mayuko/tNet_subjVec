@@ -140,11 +140,11 @@ class SGD:
                 after_loss = self.loss
             #(x,y)の更新を行う
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
-            print(k_self_word_info[:20])
+            print(self.k_size_word_info[:20])
         with open('subjVec_result.txt','w') as f2: 
             f2.write((self.M).numpy()+"\n")
             for i in range(len(self_word_info)):
-                f2.write(k_self_word_info[i][0]," ")
+                f2.write(self.k_size_word_info[i][0]," ")
             f2.write("\n",(torch.eig(self.M)).numpy())
 
 '''

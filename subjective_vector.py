@@ -126,7 +126,7 @@ class SGD:
             before_word_x,before_word_y = x,y
             #損失と勾配を算出。その後Mの更新を行う
             #before_loss == after_lossになってもFalse判定を受けてる。できれば直したい。
-            while before_loss != after_loss:
+            while abs(before_loss - after_loss) < 0.0001:
                 learn_count += 1
                 before_loss = self.loss                                    
                 #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 
@@ -137,8 +137,6 @@ class SGD:
                 print('grad:',self.grad,',',type(self.grad))
                 self.M -= self.eta * self.grad
                 after_loss = self.loss
-                print(after_loss.item())
-                print(after_loss != before_loss)
             #(x,y)の更新を行う
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)    
             after_word_x,after_word_y = x,y       

@@ -52,7 +52,7 @@ class SGD:
         #k個分の
         shrink_rate_index = np.argsort(shrink_rate)
         for i in range(k_size):
-            print("   最小",_,"番目：")
+            print("   最小",i,"番目：")
             k_xVector_set.append(x_vec[shrink_rate_index[i]])
             k_yVector_set.append(y_vec[shrink_rate_index[i]])
             new_word_info.append(word_info[shrink_rate_index[i]])

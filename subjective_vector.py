@@ -51,7 +51,8 @@ class SGD:
                 y_vec.append(vec2)
             shrink_rate.append(min([shrink_rate01,shrink_rate02,shrink_rate12]))
         #k個分の
-        for _ in range(0,k_size):
+        for _ in range(k_size):
+            print("   最小",_,"番目：")
             k_xVector_set.append(x_vec[shrink_rate.index(min(shrink_rate))])
             k_yVector_set.append(y_vec[shrink_rate.index(min(shrink_rate))])
             new_word_info.append(word_info[shrink_rate.index(min(shrink_rate))])

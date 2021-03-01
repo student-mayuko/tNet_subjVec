@@ -52,7 +52,6 @@ class SGD:
         #k個分の
         shrink_rate_index = np.argsort(shrink_rate)
         for i in range(k_size):
-            print("   最小",i,"番目：")
             k_xVector_set.append(x_vec[shrink_rate_index[i]])
             k_yVector_set.append(y_vec[shrink_rate_index[i]])
             new_word_info.append(word_info[shrink_rate_index[i]])
@@ -124,7 +123,8 @@ class SGD:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
-            before_word_x,before_word_y = x,y
+            before_loss = 1
+            after_loss = 0
             #損失と勾配を算出。その後Mの更新を行う
             #before_loss == after_lossになってもFalse判定を受けてる。できれば直したい。
             while abs(before_loss - after_loss) >= 0.0001:
@@ -139,12 +139,13 @@ class SGD:
                 print('M:',self.M)
                 after_loss = self.loss
             #(x,y)の更新を行う
-            x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)    
-            after_word_x,after_word_y = x,y       
-            print(str(self.k_size_word_info))
+            x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
+            print(k_self_word_info[:20])
         with open('subjVec_result.txt','w') as f2: 
             f2.write((self.M).numpy()+"\n")
-            f2.write((torch.eig(self.M)).numpy())
+            for i in range(len(self_word_info)):
+                f2.write(k_self_word_info[i][0]," ")
+            f2.write("\n",(torch.eig(self.M)).numpy())
 
 '''
 class Adam:

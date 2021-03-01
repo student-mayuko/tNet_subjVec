@@ -32,6 +32,7 @@ class SGD:
         new_word_info = []
         new_word_vec = []
         for i in range(len(word_info)):
+            print("   ",i,"単語目：")
             vec0,vec1,vec2=word_vec[3*i],word_vec[3*i+1],word_vec[3*i+2]
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)

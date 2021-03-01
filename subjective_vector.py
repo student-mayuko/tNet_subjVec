@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score, recall_score
 
 #データの読み込み、実行するプログラムを追加する必要あり。
 class SGD:
-    def __init__(self, eta=0.00001):
+    def __init__(self, eta=0.00002):
         self.eta = eta                  #学習率
         self.grad = np.array([])      #関数の勾配
         self.loss = 0        #損失関数?

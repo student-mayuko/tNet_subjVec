@@ -132,10 +132,10 @@ class SGD:
                 #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 
                 self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)+torch.norm(self.M*y-y)**2 
                 self.grad = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"grad",k_size)+2*(self.M*y-y)*y
-                print(learn_count,"回目の学習")
-                print('loss:',self.loss,',',type(self.loss))
-                print('grad:',self.grad,',',type(self.grad))
                 self.M -= self.eta * self.grad
+                print(learn_count,"回目の学習")
+                print('loss:',self.loss)
+                print('M:',self.M)
                 after_loss = self.loss
             #(x,y)の更新を行う
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)    

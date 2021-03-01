@@ -32,7 +32,6 @@ class SGD:
         new_word_info = []
         new_word_vec = []
         for i in range(len(word_info)):
-            print("   ",i,"単語目：")
             vec0,vec1,vec2=word_vec[3*i],word_vec[3*i+1],word_vec[3*i+2]
             #shrink_rate01 = (np.linalg.norm((self.M*vec0-self.M*vec1).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec1).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
@@ -51,14 +50,14 @@ class SGD:
                 y_vec.append(vec2)
             shrink_rate.append(min([shrink_rate01,shrink_rate02,shrink_rate12]))
         #k個分の
-        for _ in range(k_size):
+        shrink_rate_index = np.argsort(shrink_rate)
+        for i in range(k_size):
             print("   最小",_,"番目：")
-            k_xVector_set.append(x_vec[shrink_rate.index(min(shrink_rate))])
-            k_yVector_set.append(y_vec[shrink_rate.index(min(shrink_rate))])
-            new_word_info.append(word_info[shrink_rate.index(min(shrink_rate))])
-            new_word_vec.append(x_vec[shrink_rate.index(min(shrink_rate))])
-            new_word_vec.append(y_vec[shrink_rate.index(min(shrink_rate))])
-            del shrink_rate[shrink_rate.index(min(shrink_rate))]
+            k_xVector_set.append(x_vec[shrink_rate_index[i]])
+            k_yVector_set.append(y_vec[shrink_rate_index[i]])
+            new_word_info.append(word_info[shrink_rate_index[i]])
+            new_word_vec.append(x_vec[shrink_rate_index[i]])
+            new_word_vec.append(y_vec[shrink_rate_index[i]])
         self.k_size_word_info = new_word_info
         self.k_size_word_vec = new_word_vec
         return torch.tensor(k_xVector_set[0],dtype=torch.float64,device=self.device),torch.tensor(k_yVector_set[0],dtype=torch.float64,device=self.device)

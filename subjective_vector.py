@@ -97,7 +97,7 @@ class SGD:
         self_word_info,self_word_vec = word_info,torch.tensor(word_vec,dtype=torch.float64,device=self.device)
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = []
-        k_size = 60
+        k_size = 6000
         #疑似マルチセンスペアの初期設定
         for i in range(len(self_word_info)):
             vec0,vec1,vec2=self_word_vec[3*i],self_word_vec[3*i+1],self_word_vec[3*i+2]
@@ -231,12 +231,11 @@ def is_num_judge(s):
 if __name__ == '__main__':
     #30Kならマルチセンスが30000個、単語数自体は99156
     #本番
-    '''
     file_name = './datasets/vectors.MSSG.50D.30K.gz'
     '''
     #練習　スモールサイズ用
     file_name = './datasets/50D30K_300small_size.txt'
-    
+    '''
     mssg_word_vec = []
     mssg_word_info = []
     single_word_vec = []
@@ -244,8 +243,8 @@ if __name__ == '__main__':
     count = 1
     start_index = 0
 #本番用    
-#    with gzip.open(file_name,"rt","utf-8") as fi:
-    with open(file_name,"r") as fi:
+    with gzip.open(file_name,"rt","utf-8") as fi:
+#   with open(file_name,"r") as fi:
         for line in fi:
             #初期設定
             if count == 1:

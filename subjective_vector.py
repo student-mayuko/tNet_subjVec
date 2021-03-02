@@ -59,11 +59,11 @@ class SGD:
             new_word_vec.append(y_vec[shrink_rate_index[i]])
         self.k_size_word_info = new_word_info
         self.k_size_word_vec = new_word_vec
-        return torch.tensor(k_xVector_set[0],dtype=torch.float64,device=self.device),torch.tensor(k_yVector_set[0],dtype=torch.float64,device=self.device)
+        return torch.tensor(k_xVector_set[0],dtype=torch.float64),torch.tensor(k_yVector_set[0],dtype=torch.float64)
 
     def sum_calculate(self,word_info,word_vec,key,k_size):
         loss_sum,word_loss =  0,0
-        X,Y = torch.tensor([],dtype=torch.float64,device=self.device),torch.tensor([],dtype=torch.float64,device=self.device)
+        X,Y = torch.tensor([],dtype=torch.float64),torch.tensor([],dtype=torch.float64)
         for i in range(len(word_info)):
             X,Y=word_vec[2*i],word_vec[2*i+1]
             if key == "loss":

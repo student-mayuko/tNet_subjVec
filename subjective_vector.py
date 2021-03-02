@@ -119,7 +119,7 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 1:
+        while while_count < 100:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
@@ -142,9 +142,6 @@ class SGD:
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
-        print(eigen_value)
-        print(subj_vec)
-        print(np.argmin(eigen_value))
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):

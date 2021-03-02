@@ -94,7 +94,7 @@ class SGD:
         before_word_x,before_word_y = x,y
         after_word_x,after_word_y = y,x
         while_count = 0
-        self_word_info,self_word_vec = word_info,torch.tensor(word_vec,dtype=torch.float64,device=self.device)
+        self_word_info,self_word_vec = word_info,torch.tensor(word_vec,dtype=torch.float64)
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = []
         k_size = 6000

@@ -105,10 +105,8 @@ class SGD:
             #shrink_rate02 = (np.linalg.norm((self.M*vec0-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec0-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             #shrink_rate12 = (np.linalg.norm((self.M*vec1-self.M*vec2).to('cpu').detach().numpy().copy(),ord=2)**2)/(np.linalg.norm((vec1-vec2).to('cpu').detach().numpy().copy(),ord=2)**2)
             shrink_rate01 = ((torch.norm(self.M*vec0-self.M*vec1))**2)/(torch.norm(vec0-vec1)**2)
-            shrink_rate02 = ((torch.norm(torch.matmul(self.M,vec0))-torch.matmul(self.M,vec2))**2)/(torch.norm(vec0-vec2)**2)
-            shrink_rate12 = ((torch.norm(torch.matmul(self.M,vec1))-torch.matmul(self.M,vec2))**2)/(torch.norm(vec1-vec2)**2)
-            print(self.M*vec0-self.M*vec1)
-            print(torch.norm(self.M*vec0-self.M*vec1))
+            shrink_rate02 = ((torch.norm(self.M*vec0-self.M*vec2))**2)/(torch.norm(vec0-vec2)**2)
+            shrink_rate12 = ((torch.norm(self.M*vec1-self.M*vec2))**2)/(torch.norm(vec1-vec2)**2)
             if min([shrink_rate01,shrink_rate02,shrink_rate12])==shrink_rate01:
                 self.k_size_word_vec.append(vec0)
                 self.k_size_word_vec.append(vec1)

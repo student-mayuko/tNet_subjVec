@@ -119,7 +119,7 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 60:
+        while while_count < 2:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")

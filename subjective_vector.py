@@ -142,6 +142,7 @@ class SGD:
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
+        print(np.argsort(eigen_value))
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):

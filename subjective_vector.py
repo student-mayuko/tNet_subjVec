@@ -297,6 +297,7 @@ if __name__ == '__main__':
         vec_cosine.append(cosine_sim(subj_vec,mssg_word_dict[mssg_word_info[i][0]]))
     #cosine類似度が大きい上位20語を選んで出力する
     vec_cosine_index = np.argsort(vec_cosine)[::-1]
+    print(subj_vec)
     print(vec_cosine_index)
     with open("nearest_neighbor.txt","w") as f:
         for i in range(20):

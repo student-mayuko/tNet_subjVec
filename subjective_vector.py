@@ -291,12 +291,12 @@ if __name__ == '__main__':
     vec_cosine = []
     subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)    
     for i in range(len(mssg_word_info)):
-        print(subj_vec,',',type(subj_vec))
-        print(mssg_word_dict[mssg_word_info[i][0]],',',type(mssg_word_dict[mssg_word_info[i][0]]))
         vec_cosine.append(cosine_sim(subj_vec,mssg_word_dict[mssg_word_info[i][0]]))
     #cosine類似度が大きい上位20語を選んで出力する
+    vec_cosine_index = np.argsort(vec_cosine)[::-1]
+    print(vec_cosine_index)
     with open("nearest_neighbor.txt","w") as f:
         for i in range(20):
-            print(mssg_word_info[np.argsort(vec_cosine)[::-1][i]][0])
+            print(mssg_word_info[vec_cosine_index[i]][0])
             f.write(mssg_word_info[np.argsort(vec_cosine)[::-1][i]][0])
     

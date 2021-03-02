@@ -147,8 +147,10 @@ class SGD:
             for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]+" ")
             f2.write("\n"+str(subj_vec))
-           
-        return subj_vec.tolist()
+        print(subj_vec)
+        print(type(subj_vec))
+        print(subj_vec.tolist())
+        return subj_vec
 
 '''
 class Adam:
@@ -284,7 +286,7 @@ if __name__ == '__main__':
     for i in range(len(mssg_word_vec)):
         if i%7==0 or i%7 ==2 or i%7 ==4 or i%7==6:
             if i%7==0:
-                mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i] 
+                mssg_word_dict[mssg_word_info[i//7][0]] = float(mssg_word_vec[i])
             mssg_word_vec[i] = []
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 

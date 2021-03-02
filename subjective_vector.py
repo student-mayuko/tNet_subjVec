@@ -90,7 +90,6 @@ class SGD:
         x_index,y_index=vec_index_candidate[0],vec_index_candidate[1]        
         x,y=torch.tensor(vec_candidate[x_index],dtype=torch.float64),torch.tensor(vec_candidate[y_index],dtype=torch.float64)
         self.M = torch.randn((50,50),dtype=torch.float64)
-        print(self.M)
         before_loss,after_loss=0,1000
         before_word_x,before_word_y = x,y
         after_word_x,after_word_y = y,x
@@ -147,7 +146,7 @@ class SGD:
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]+" ")
-            f2.write("\n",str(subj_vec))
+            f2.write("\n"+str(subj_vec))
            
         return subj_vec.tolist()
 

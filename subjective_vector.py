@@ -279,12 +279,12 @@ if __name__ == '__main__':
             start_index += 7
     mssg_word_info = [vec for vec in mssg_word_info if vec != []]
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
-    mssg_wrod_dict = {}
+    mssg_word_dict = {}
     #疑似マルチセンス候補のみを抽出する作業。ここではsense cluster center(もしかしたらglobal vectorも)を削除している。
     for i in range(len(mssg_word_vec)):
         if i%7==0 or i%7 ==2 or i%7 ==4 or i%7==6:
             if i%7==0:
-                mssg_wrod_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i] 
+                mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i] 
             mssg_word_vec[i] = []
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 

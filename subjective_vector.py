@@ -119,7 +119,7 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 2:
+        while while_count < 1:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
@@ -290,8 +290,10 @@ if __name__ == '__main__':
 
     sgd = SGD()
     subj_vec,vec_cosine = [],[]
-    subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)
+    subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)    
     for i in range(len(mssg_word_info)):
+        print(subj_vec,',',type(subj_vec))
+        print(mssg_word_dict[mssg_word_info[i][0]],',',type(mssg_word_dict[mssg_word_info[i][0]]))
         vec_cosine.append(cosine_sim(subj_vec,mssg_word_dict[mssg_word_info[i][0]]))
     #cosine類似度が大きい上位20語を選んで出力する
     with open("nearest_neighbor.txt","w") as f:

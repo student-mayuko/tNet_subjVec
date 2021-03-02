@@ -142,8 +142,6 @@ class SGD:
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
-        print(eigen_value)
-        print(subj_vec[np.argsort(eigen_value)])
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):
@@ -298,9 +296,8 @@ if __name__ == '__main__':
     #cosine類似度が大きい上位20語を選んで出力する
     vec_cosine_index = np.argsort(vec_cosine)[::-1]
     print(subj_vec)
-    print(vec_cosine_index)
     with open("nearest_neighbor.txt","w") as f:
         for i in range(20):
             print(mssg_word_info[vec_cosine_index[i]][0])
             f.write(mssg_word_info[np.argsort(vec_cosine)[::-1][i]][0])
-    
+   

@@ -11,7 +11,7 @@ import torch.nn as nn
 import gzip
 import torch.nn.functional as F
 import numpy as np
-import sympy as sym
+from scipy import linalg
 izip=zip
 #from itertools import izip
 from sklearn.metrics import accuracy_score, recall_score
@@ -119,7 +119,7 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 100:
+        while while_count < 60:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
@@ -141,12 +141,14 @@ class SGD:
             #(x,y)の更新を行う
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
             print(self.k_size_word_info[:20])
-            print(str(torch.eig(self.M)))
+        eigenvalue,subj_vec = linalg.eig(self.M)
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
-            for i in range(len(self_word_info)):
+            for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]," ")
-            f2.write("\n",str(torch.eig(self.M)))
+            f2.write("\n",str(subj_vec))
+           
+        return subj_vec.tolist()
 
 '''
 class Adam:
@@ -230,6 +232,10 @@ def is_num_judge(s):
         return False
     else:
         return True
+    
+def cosine_sim(v1, v2):
+    self_v1,self_v2 = np.array(v1,dtype = float),np.array(v2,dtype=float)
+    return np.dot(self_v1, self_v2) / (np.linalg.norm(self_v1) * np.linalg.norm(self_v2))
 
 if __name__ == '__main__':
     #30Kならマルチセンスが30000個、単語数自体は99156
@@ -283,12 +289,13 @@ if __name__ == '__main__':
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 
     sgd = SGD()
-    sgd.fit(mssg_word_info,mssg_word_vec)
-
+    subj_vec = []
+    subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)
+    for i in range(len(mssg_word_info)):
+        vec_cosine.append(cosine_sim(subj_vec,mssg_word_dict[mssg_word_info[i][0]]))
+    #cosine類似度が大きい上位20語を選んで出力する
+    with open("nearest_neighbor.txt","w") as f:
+        for i in range(20):
+            print(mssg_word_info[np.argsort(vec_cosine)[::-1][i]][0])
+            f.write(mssg_word_info[np.argsort(vec_cosine)[::-1][i]][0])
     
-    '''
-    for i in range(0,len(mssg_word_start_index)):
-        print(mssg_word_info[i])
-        for j in range(int(mssg_word_start_index[i]),int(mssg_word_start_index[i])+int(mssg_word_info[i][1])):
-            print(mssg_word_vec[j])
-    '''

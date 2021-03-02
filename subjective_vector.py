@@ -289,7 +289,7 @@ if __name__ == '__main__':
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 
     sgd = SGD()
-    subj_vec = []
+    subj_vec,vec_cosine = [],[]
     subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)
     for i in range(len(mssg_word_info)):
         vec_cosine.append(cosine_sim(subj_vec,mssg_word_dict[mssg_word_info[i][0]]))

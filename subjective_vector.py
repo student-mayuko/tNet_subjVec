@@ -144,14 +144,14 @@ class SGD:
         eigen_value,subj_vec = linalg.eig(self.M)
         print(eigen_value)
         print(subj_vec)
-        print(np.argsort(eigen_value))
+        print(np.argmin(eigen_value))
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]+" ")
             f2.write("\n"+str(subj_vec))
-            f2.write("\n"+str(subj_vec[np.argsort(eigen_value)]))
-        return subj_vec[np.argsort(eigen_value)]
+            f2.write("\n"+str(subj_vec[np.argmin(eigen_value)]))
+        return subj_vec[np.argmin(eigen_value)]
 
 '''
 class Adam:

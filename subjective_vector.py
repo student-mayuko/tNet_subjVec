@@ -147,9 +147,6 @@ class SGD:
             for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]+" ")
             f2.write("\n"+str(subj_vec))
-        print(subj_vec)
-        print(type(subj_vec))
-        print(subj_vec.tolist())
         return subj_vec
 
 '''
@@ -236,7 +233,7 @@ def is_num_judge(s):
         return True
     
 def cosine_sim(v1, v2):
-    self_v1,self_v2 = np.array(v1,dtype = float),np.array(v2,dtype=float)
+    self_v1,self_v2 = v1,np.array(v2,dtype=float)
     return np.dot(self_v1, self_v2) / (np.linalg.norm(self_v1) * np.linalg.norm(self_v2))
 
 if __name__ == '__main__':
@@ -286,12 +283,12 @@ if __name__ == '__main__':
     for i in range(len(mssg_word_vec)):
         if i%7==0 or i%7 ==2 or i%7 ==4 or i%7==6:
             if i%7==0:
-                mssg_word_dict[mssg_word_info[i//7][0]] = float(mssg_word_vec[i])
+                mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i]
             mssg_word_vec[i] = []
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 
     sgd = SGD()
-    subj_vec,vec_cosine = [],[]
+    vec_cosine = []
     subj_vec = sgd.fit(mssg_word_info,mssg_word_vec)    
     for i in range(len(mssg_word_info)):
         print(subj_vec,',',type(subj_vec))

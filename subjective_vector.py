@@ -253,6 +253,7 @@ if __name__ == '__main__':
     single_word_info =[]
     count = 1
     start_index = 0
+    mssg_word_dict = {}
 #本番用    
     with gzip.open(file_name,"rt","utf-8") as fi:
 #   with open(file_name,"r") as fi:
@@ -266,7 +267,22 @@ if __name__ == '__main__':
                     mssg_word_info.append(line.split())
                 else:
                     mssg_word_vec.append(line.split())
-    #多義語のみ抽出する作業
+    #辞書型データの作成、近傍調査用
+    start_index_list = []
+    start_index_content = 0
+    subjective_index = 0
+    for index in range(len(mssg_word_info)):
+        start_index_list.append(start_index_content)
+        if mssg_word_info[index][1] == '1':
+            start_index_content += 3 
+        else:
+            start_index_content += 7
+        if mssg_word_info[index][0] == 'subjective':
+            subjective_index = index
+            print(mssg_word_info[index][0]," index is ",subjective_index,"!")
+    for index in range(len(mssg_word_info)):
+        mssg_word_dict[mssg_word_info[index][0]] = mssg_word_vec[start_index_list[index]]
+    #多義語のみ抽出する事前作業
     for index in range(0,len(mssg_word_info)):
         if mssg_word_info[index][1] == '1':
             single_word_info.append(mssg_word_info[index])
@@ -278,15 +294,14 @@ if __name__ == '__main__':
                 change_index += 1
             start_index += 3
         else:
+            mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i]
             start_index += 7
     mssg_word_info = [vec for vec in mssg_word_info if vec != []]
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
-    mssg_word_dict = {}
+
     #疑似マルチセンス候補のみを抽出する作業。ここではsense cluster center(もしかしたらglobal vectorも)を削除している。
     for i in range(len(mssg_word_vec)):
         if i%7==0 or i%7 ==2 or i%7 ==4 or i%7==6:
-            if i%7==0:
-                mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i]
             mssg_word_vec[i] = []
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]
 

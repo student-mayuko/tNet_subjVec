@@ -294,7 +294,6 @@ if __name__ == '__main__':
                 change_index += 1
             start_index += 3
         else:
-            mssg_word_dict[mssg_word_info[i//7][0]] = mssg_word_vec[i]
             start_index += 7
     mssg_word_info = [vec for vec in mssg_word_info if vec != []]
     mssg_word_vec = [vec for vec in mssg_word_vec if vec != []]

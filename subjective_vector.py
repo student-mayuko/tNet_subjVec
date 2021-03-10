@@ -268,21 +268,26 @@ if __name__ == '__main__':
                     mssg_word_info.append(line.split())
                 else:
                     mssg_word_vec.append(line.split())
-    #辞書型データの作成、近傍調査用
+    #辞書型データの作成、近傍調査用(多義語＋単一語)
     start_index_list = []
     start_index_content = 0
-    subjective_index = 0
+    '''
     for index in range(len(mssg_word_info)):
         start_index_list.append(start_index_content)
         if mssg_word_info[index][1] == '1':
             start_index_content += 3 
         else:
             start_index_content += 7
-        if mssg_word_info[index][0] == 'subjective':
-            subjective_index = index
-            print(mssg_word_info[index][0]," index is ",subjective_index,"!")
     for index in range(len(mssg_word_info)):
         mssg_word_dict[mssg_word_info[index][0]] = mssg_word_vec[start_index_list[index]]
+    '''
+    #辞書型データの作成(多義語のみ) 
+    for index in range(len(mssg_word_info)):
+        if mssg_word_info[index][1] == '3':
+            mssg_word_dict[mssg_word_info[index][0]] = mssg_word_vec[start_index_content] 
+            start_index_content += 7
+        else:
+            start_index_content += 3
     #多義語のみ抽出する事前作業
     for index in range(0,len(mssg_word_info)):
         if mssg_word_info[index][1] == '1':

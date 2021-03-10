@@ -84,7 +84,8 @@ class SGD:
         for i in range(len(word_vec)):
             for j in range(len(word_vec[i])):
                 word_vec[i][j] = float(word_vec[i][j])
-        first_word_index = np.random.randint(0, len(word_info))
+        first_word_index = 12174
+        #first_word_index = np.random.randint(0, len(word_info))
         first_word = word_info[first_word_index][0]
         vec_candidate = word_vec[3*first_word_index:3*(first_word_index+1)]
         vec_index_candidate = random.sample([0,1,2],2)       

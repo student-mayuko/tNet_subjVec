@@ -271,7 +271,6 @@ if __name__ == '__main__':
     #辞書型データの作成、近傍調査用(多義語＋単一語)
     start_index_list = []
     start_index_content = 0
-    '''
     for index in range(len(mssg_word_info)):
         start_index_list.append(start_index_content)
         if mssg_word_info[index][1] == '1':
@@ -288,6 +287,7 @@ if __name__ == '__main__':
             start_index_content += 7
         else:
             start_index_content += 3
+    '''
     #多義語のみ抽出する事前作業
     for index in range(0,len(mssg_word_info)):
         if mssg_word_info[index][1] == '1':

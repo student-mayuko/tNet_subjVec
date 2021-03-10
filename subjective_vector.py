@@ -85,6 +85,7 @@ class SGD:
             for j in range(len(word_vec[i])):
                 word_vec[i][j] = float(word_vec[i][j])
         first_word_index = np.random.randint(0, len(word_info))
+        first_word = word_info[first_word_index][0]
         vec_candidate = word_vec[3*first_word_index:3*(first_word_index+1)]
         vec_index_candidate = random.sample([0,1,2],2)       
         x_index,y_index=vec_index_candidate[0],vec_index_candidate[1]        
@@ -142,6 +143,7 @@ class SGD:
             x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
+        print("first word:",first_word)
         with open('subjVec_result.txt','w') as f2: 
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):

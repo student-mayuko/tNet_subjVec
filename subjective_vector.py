@@ -68,9 +68,9 @@ class SGD:
             X,Y=word_vec[2*i],word_vec[2*i+1]
             if key == "loss":
                 #word_loss = np.linalg.norm((self.M*X-Y).to('cpu').detach().numpy().copy(),ord=2)**2
-                word_loss = torch.norm(self.M*X-Y)**2
+                word_loss = torch.norm(self.M*X-Y)**2+torch.norm(self.M*y-y)**2 
             if key == "grad":
-                word_loss = 2*((self.M*X-Y)*X)
+                word_loss = 2*((self.M*X-Y)*X)+2*(self.M*y-y)*y
             loss_sum += word_loss
         return loss_sum
 
@@ -133,8 +133,8 @@ class SGD:
                 learn_count += 1
                 before_loss = self.loss                                    
                 #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 
-                self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)+torch.norm(self.M*y-y)**2 
-                self.grad = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"grad",k_size)+2*(self.M*y-y)*y
+                self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)
+                self.grad = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"grad",k_size)
                 self.M -= self.eta * self.grad
                 print(learn_count,"回目の学習")
                 print('loss:',self.loss)

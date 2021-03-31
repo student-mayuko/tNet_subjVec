@@ -68,9 +68,9 @@ class SGD:
             X,Y=word_vec[2*i],word_vec[2*i+1]
             if key == "loss":
                 #word_loss = np.linalg.norm((self.M*X-Y).to('cpu').detach().numpy().copy(),ord=2)**2
-                word_loss = torch.norm(self.M*X-Y)**2+torch.norm(self.M*y-y)**2 
+                word_loss = torch.norm(self.M*X-Y)**2+torch.norm(self.M*Y-Y)**2 
             if key == "grad":
-                word_loss = 2*((self.M*X-Y)*X)+2*(self.M*y-y)*y
+                word_loss = 2*((self.M*X-Y)*X)+2*(self.M*Y-Y)*Y
             loss_sum += word_loss
         return loss_sum
 

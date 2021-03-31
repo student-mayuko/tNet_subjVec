@@ -81,7 +81,7 @@ class SGD:
     def fit(self, word_info, word_vec):
         #初期設定
         seed_number = 0
-        torch.random.seed(seed_number)
+        torch.manual_seed(seed_number)
         torch.cuda.manual_seed_all(seed_number)
         torch.backends.cudnn.deterministic = True        
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

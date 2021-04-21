@@ -80,7 +80,7 @@ class SGD:
     #shrink_rate呼び出し多すぎだからタイミング変えようね
     def fit(self, word_info, word_vec):
         #初期設定
-        seed_number = 0
+        seed_number = 
         torch.manual_seed(seed_number)
         torch.cuda.manual_seed_all(seed_number)
         torch.backends.cudnn.deterministic = True        
@@ -125,7 +125,7 @@ class SGD:
         #学習回数分
         #この部分の終了条件設定を決める
         #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 100:
+        while while_count < 50:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")

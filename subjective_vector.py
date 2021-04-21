@@ -80,7 +80,7 @@ class SGD:
     #shrink_rate呼び出し多すぎだからタイミング変えようね
     def fit(self, word_info, word_vec):
         #初期設定
-        seed_number = 2
+        seed_number = 3
         torch.manual_seed(seed_number)
         torch.cuda.manual_seed_all(seed_number)
         torch.backends.cudnn.deterministic = True        

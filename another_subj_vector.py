@@ -230,7 +230,8 @@ class SGD:
                 print('M:',self.M)
                 after_loss = self.loss
             #(x,y)の更新を行う
-            #x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size) 
+            #x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)
+            self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
         with open('subjVec_result.txt','w') as f2: 

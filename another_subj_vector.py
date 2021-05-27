@@ -351,6 +351,7 @@ if __name__ == '__main__':
                 mssg_word.append(line)
             else:
                 word_vectors.append(line.split())
+            count += 1
     for index in range(len(word_vectors)/2):
         mssg_word_vec.append([word_vectors[2*index],word_vectors[2*index+1]])
         

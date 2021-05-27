@@ -204,8 +204,6 @@ class SGD:
                 word_vec[i][j] = float(word_vec[i][j])
         self.M = torch.randn((50,50),dtype=torch.float64)
         before_loss,after_loss=0,1000
-        before_word_x,before_word_y = x,y
-        after_word_x,after_word_y = y,x
         while_count = 0
         self_word_info,self_word_vec = word_info,torch.tensor(word_vec,dtype=torch.float64)
         self.k_size_word_info= self_word_info

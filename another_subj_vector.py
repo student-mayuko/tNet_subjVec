@@ -160,7 +160,7 @@ class SGD:
         for i in range(len(word_info)):
             vec0,vec1=word_vec[i][0],word_vec[i][1]
             shrink_rate = (torch.norm(self.M*vec0-self.M*vec1)**2)/(torch.norm(vec0-vec1)**2)
-            shrink_rate.append(shrink_rate))
+            shrink_rate.append(shrink_rate)
             x_vec.append(vec0)
             y_vec.append(vec1)
         #k個分の

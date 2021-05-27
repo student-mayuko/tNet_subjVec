@@ -332,13 +332,13 @@ if __name__ == '__main__':
         './MSSG.vectors.50D.30K_local.txt'
     )
 
-    '''
+  
     #疑似マルチセンスペア抽出。90000ペアが抽出された
     detector = PsdMulDetector(glbmodel, locmodel)
     result = detector.detect()
     with open('debug.log', 'w') as fout:
             pprint(result, fout)
-    '''
+
     #subjVec生成準備
     mssg_word_vec = []
     word_vectors = []

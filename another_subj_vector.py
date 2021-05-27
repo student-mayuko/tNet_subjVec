@@ -104,15 +104,15 @@ class PsdMulDetector:
         with open('pseudo_multi_sense_vec.txt','w') as f:
             for content in res:
                 pseudo_word = self.prototype(content[0])
-                vec1 = self.locmodel.wv[content[0]]
-                vec2 = self.locmodel.wv[content[1]]
+                vec1 = self.locmodel[content[0]]
+                vec2 = self.locmodel[content[1]]
                 f.write(pseudo_word+"\n")
                 for vec1_vector in vec1:
                     f.write(str(vec1_vector)+" ")
                 f.write("\n")
                 for vec2_vector in vec2:
                     f.write(str(vec2_vector)+" ")
-                f.write("\n") 
+                f.write("\n")
         return res
 
     '''

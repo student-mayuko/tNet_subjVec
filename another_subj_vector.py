@@ -151,7 +151,7 @@ class SGD:
         self.loss = 0        #損失関数?
 
     def choice_vec_by_shrink_rate(self,word_info,word_vec,k_size):
-        shrink_rate = []
+        shrink_rate_list = []
         x_vec,y_vec = [],[]
         k_xVector_set = []
         k_yVector_set = []
@@ -160,11 +160,11 @@ class SGD:
         for i in range(len(word_info)):
             vec0,vec1=word_vec[i][0],word_vec[i][1]
             shrink_rate = (torch.norm(self.M*vec0-self.M*vec1)**2)/(torch.norm(vec0-vec1)**2)
-            shrink_rate.append(shrink_rate)
+            shrink_rate_list.append(shrink_rate)
             x_vec.append(vec0)
             y_vec.append(vec1)
         #k個分の
-        shrink_rate_index = np.argsort(shrink_rate)
+        shrink_rate_index = np.argsort(shrink_rate_list)
         for i in range(k_size):
             k_xVector_set.append(x_vec[shrink_rate_index[i]])
             k_yVector_set.append(y_vec[shrink_rate_index[i]])

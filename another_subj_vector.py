@@ -64,7 +64,7 @@ class PsdMulDetector:
     def detect(self):
         print ('Begin to detect pseudo multi-sense cases.')
         res = list()               
-        for w in self.locmodel.wv.vocab:
+        for w in self.locmodel.index_to_key:
             #proto:locmodelに登録されている単語
             proto = self.prototype(w)
             if proto+'_s1' not in self.locmodel:

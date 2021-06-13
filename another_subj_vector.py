@@ -1,3 +1,4 @@
+
 import logging
 import argparse
 import math
@@ -141,22 +142,24 @@ class PsdMulDetector:
             if item == elems[0]:
                 ret.append(elems)
         return ret
-
-
-#データの読み込み、実行するプログラムを追加する必要あり。
-class SGD:
+class SubjVec_SGD(nn.Module):
     def __init__(self, eta=0.00002):
         self.eta = eta                  #学習率
         self.grad = np.array([])      #関数の勾配
         self.loss = 0        #損失関数?
+        self.seed_number = 0
+        torch.manual_seed(self.seed_number)
+        torch.cuda.manual_seed_all(self.seed_number)
+        torch.backends.cudnn.deterministic = True
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.M = torch.randn((50,50),dtype=torch.float64)
 
     def choice_vec_by_shrink_rate(self,word_info,word_vec,k_size):
         shrink_rate_list = []
-        x_vec,y_vec = [],[]
-        k_xVector_set = []
-        k_yVector_set = []
-        new_word_info = []
-        new_word_vec = []
+        x_vec = []
+        y_vec = []
+        k_vector_set = []
+        k_word_set = []
         for i in range(len(word_info)):
             vec0,vec1=word_vec[i][0],word_vec[i][1]
             shrink_rate = (torch.norm(self.M*vec0-self.M*vec1)**2)/(torch.norm(vec0-vec1)**2)
@@ -166,14 +169,9 @@ class SGD:
         #k個分の
         shrink_rate_index = np.argsort(shrink_rate_list)
         for i in range(k_size):
-            k_xVector_set.append(x_vec[shrink_rate_index[i]])
-            k_yVector_set.append(y_vec[shrink_rate_index[i]])
-            new_word_info.append(word_info[shrink_rate_index[i]])
-            new_word_vec.append(x_vec[shrink_rate_index[i]])
-            new_word_vec.append(y_vec[shrink_rate_index[i]])
-        self.k_size_word_info = new_word_info
-        self.k_size_word_vec = new_word_vec
-        #return torch.tensor(k_xVector_set[0],dtype=torch.float64),torch.tensor(k_yVector_set[0],dtype=torch.float64)
+            k_vector_set.append([x_vec[shrink_rate_index[i]],y_vec[shrink_rate_index[i]]])
+            k_word_set.append(word_info[shrink_rate_index[i]])
+        return k_word_set,k_vector_set
 
     def sum_calculate(self,word_info,word_vec,key,k_size):
         loss_sum,word_loss =  0,0
@@ -182,11 +180,12 @@ class SGD:
             X,Y=word_vec[i][0],word_vec[i][1]
             if key == "loss":
                 #word_loss = np.linalg.norm((self.M*X-Y).to('cpu').detach().numpy().copy(),ord=2)**2
-                word_loss = torch.norm(self.M*X-Y)**2+torch.norm(self.M*Y-Y)**2 
+                word_loss = torch.norm(self.M*X-Y)**2+torch.norm(self.M*Y-Y)**2
             if key == "grad":
                 word_loss = 2*((self.M*X-Y)*X)+2*(self.M*Y-Y)*Y
             loss_sum += word_loss
         return loss_sum
+
 
     #訓練事象xとyのサンプリング→損失計算→勾配計算→パラメータ更新
     #wは変換行列Mに当たる
@@ -194,34 +193,33 @@ class SGD:
     #shrink_rate呼び出し多すぎだからタイミング変えようね
     def fit(self, word_info, word_vec):
         #初期設定
-        seed_number = 0
-        torch.manual_seed(seed_number)
-        torch.cuda.manual_seed_all(seed_number)
-        torch.backends.cudnn.deterministic = True        
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         for i in range(len(word_vec)):
             for j in range(len(word_vec[i])):
-                word_vec[i][j] = float(word_vec[i][j])
-        self.M = torch.randn((50,50),dtype=torch.float64)
+                for k in range(len(word_vec[i][j])):
+                    word_vec[i][j][k] = float(word_vec[i][j][k])
+        m_content = []        
         before_loss,after_loss=0,1000
+        while_before_loss,while_after_loss = 0,1000
         while_count = 0
         self_word_info,self_word_vec = word_info,torch.tensor(word_vec,dtype=torch.float64)
         self.k_size_word_info= self_word_info
         self.k_size_word_vec = self_word_vec
-        k_size = 18000
-        #while not(all(before_word_x == after_word_x) and all(before_word_y == after_word_y)):
-        while while_count < 100:
+        k_size = int(len(word_info)*0.2)
+        print("k_size:",k_size)
+        while abs(while_before_loss-while_after_loss) >= 0.00000001:
+        #while while_count < 50:
             while_count += 1
             learn_count = 0
             print(while_count,"回目の更新")
             before_loss = 1
             after_loss = 0
+            while_before_loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)
             #損失と勾配を算出。その後Mの更新を行う
             #before_loss == after_lossになってもFalse判定を受けてる。できれば直したい。
-            while abs(before_loss - after_loss) >= 0.0001:
+            while abs(before_loss - after_loss) >= 0.00000001:
                 learn_count += 1
-                before_loss = self.loss                                    
-                #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2 
+                before_loss = self.loss
+                #self.loss = self.sum_calculate(self_word_info,self_word_vec,"loss")+np.linalg.norm((self.M*y-y).to('cpu').detach().numpy().copy(),ord=2)**2
                 self.loss = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"loss",k_size)
                 self.grad = self.sum_calculate(self.k_size_word_info,self.k_size_word_vec,"grad",k_size)
                 self.M -= self.eta * self.grad
@@ -231,10 +229,12 @@ class SGD:
                 after_loss = self.loss
             #(x,y)の更新を行う
             #x,y= self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)
-            self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)
+            self.k_size_word_info,self.k_size_word_vec = self.choice_vec_by_shrink_rate(self_word_info,self_word_vec,k_size)
+            while_after_loss = self.loss
             print(self.k_size_word_info[:20])
         eigen_value,subj_vec = linalg.eig(self.M)
-        with open('subjVec_result.txt','w') as f2: 
+        torch.save({'M':self.M,'subj_vec':subj_vec[np.argmin(eigen_value)],'loss':self.loss},"./subj_vec_result.pth")
+        with open('subjVec_result.txt','w') as f2:
             f2.write(str(self.M)+"\n")
             for i in range(len(self.k_size_word_info)):
                 f2.write(self.k_size_word_info[i][0]+" ")

@@ -1,0 +1,1276 @@
+[result:2, answer:2, aspect:boot time]
+boot time is super fast , around anywhere from 35 seconds to 1 minute .
+[result:0, answer:0, aspect:tech support]
+tech support would not fix the problem unless i bought your plan for $ 150 plus .
+[result:2, answer:2, aspect:set up]
+set up was easy .
+[result:2, answer:0, aspect:windows 8]
+did not enjoy the new windows 8 and touchscreen functions .
+[result:0, answer:0, aspect:touchscreen functions]
+did not enjoy the new windows 8 and touchscreen functions .
+[result:0, answer:0, aspect:internal speakers]
+other than not being a fan of click pads -lrb- industry standard these days -rrb- and the lousy internal speakers , it 's hard for me to find things about this notebook i do n't like , especially considering the $ 350 price tag .
+[result:0, answer:2, aspect:price tag]
+other than not being a fan of click pads -lrb- industry standard these days -rrb- and the lousy internal speakers , it 's hard for me to find things about this notebook i do n't like , especially considering the $ 350 price tag .
+[result:0, answer:0, aspect:click pads]
+other than not being a fan of click pads -lrb- industry standard these days -rrb- and the lousy internal speakers , it 's hard for me to find things about this notebook i do n't like , especially considering the $ 350 price tag .
+[result:0, answer:1, aspect:installation disk (dvd)]
+no installation disk (dvd) is included .
+[result:2, answer:2, aspect:use]
+it 's fast , light , and simple to use .
+[result:2, answer:2, aspect:works]
+works well , and i am extremely happy to be back to an apple os .
+[result:2, answer:2, aspect:apple os]
+works well , and i am extremely happy to be back to an apple os .
+[result:0, answer:2, aspect:features]
+sure it 's not light and slim but the features make up for it 100 % .
+[result:2, answer:2, aspect:log on]
+i am pleased with the fast log on , speedy wifi connection and the long battery life -lrb- > 6 hrs -rrb- .
+[result:2, answer:2, aspect:wifi connection]
+i am pleased with the fast log on , speedy wifi connection and the long battery life -lrb- > 6 hrs -rrb- .
+[result:2, answer:2, aspect:battery life]
+i am pleased with the fast log on , speedy wifi connection and the long battery life -lrb- > 6 hrs -rrb- .
+[result:0, answer:0, aspect:delete key]
+the apple engineers have not yet discovered the delete key .
+[result:2, answer:0, aspect:interneting]
+made interneting -lrb- part of my business -rrb- very difficult to maintain .
+[result:2, answer:2, aspect:priced]
+luckily , for all of us contemplating the decision , the mac mini is priced just right .
+[result:2, answer:2, aspect:works]
+super light , super sexy and everything just works .
+[result:2, answer:0, aspect:track pad]
+only problem that i had was that the track pad was not very good for me , i only had a problem once or twice with it , but probably my computer was a bit defective .
+[result:2, answer:2, aspect:graphics]
+it is super fast and has outstanding graphics .
+[result:2, answer:0, aspect:mountain lion]
+but the mountain lion is just too slow .
+[result:2, answer:2, aspect:durability]
+strong build though which really adds to its durability .
+[result:2, answer:2, aspect:build]
+strong build though which really adds to its durability .
+[result:2, answer:2, aspect:battery life]
+the battery life is excellent - 6-7 hours without charging .
+[result:2, answer:2, aspect:works]
+i 've had my computer for 2 weeks already and it works perfectly .
+[result:2, answer:2, aspect:windows 8]
+and i may be the only one but i am really liking windows 8 .
+[result:2, answer:2, aspect:baterry]
+the baterry is very longer .
+[result:2, answer:2, aspect:size]
+its size is ideal and the weight is acceptable .
+[result:2, answer:2, aspect:weight]
+its size is ideal and the weight is acceptable .
+[result:2, answer:2, aspect:performance]
+i can say that i am fully satisfied with the performance that the computer has supplied .
+[result:0, answer:0, aspect:usb ports]
+this laptop has only 2 usb ports , and they are both on the same side .
+[result:2, answer:2, aspect:speed]
+it has so much more speed and the screen is very sharp .
+[result:2, answer:2, aspect:screen]
+it has so much more speed and the screen is very sharp .
+[result:2, answer:2, aspect:price]
+everything i wanted and everything i needed and the price was great !
+[result:0, answer:2, aspect:hardware performance]
+it 's not inexpensive but the hardware performance is impressive for a computer this small .
+[result:2, answer:2, aspect:works]
+this thing is awesome , everything always works , everything is always easy to set up , everything is compatible , its literally everything i could ask for .
+[result:2, answer:2, aspect:set up]
+this thing is awesome , everything always works , everything is always easy to set up , everything is compatible , its literally everything i could ask for .
+[result:2, answer:2, aspect:keyboard]
+keyboard responds well to presses .
+[result:0, answer:0, aspect:windows 8]
+lastly , windows 8 is annoying .
+[result:2, answer:2, aspect:setup]
+everything is so easy and intuitive to setup or configure .
+[result:2, answer:2, aspect:configure]
+everything is so easy and intuitive to setup or configure .
+[result:0, answer:0, aspect:windows 8]
+biggest complaint is windows 8 .
+[result:0, answer:0, aspect:usb ports]
+only 2 usb ports ... seems kind of ... limited .
+[result:2, answer:2, aspect:features]
+it has all the expected features and more + plus a wide screen and more than roomy keyboard .
+[result:2, answer:2, aspect:screen]
+it has all the expected features and more + plus a wide screen and more than roomy keyboard .
+[result:2, answer:2, aspect:keyboard]
+it has all the expected features and more + plus a wide screen and more than roomy keyboard .
+[result:2, answer:2, aspect:performance]
+amazing performance for anything i throw at it .
+[result:2, answer:2, aspect:quality]
+the receiver was full of superlatives for the quality and performance .
+[result:2, answer:2, aspect:performance]
+the receiver was full of superlatives for the quality and performance .
+[result:2, answer:2, aspect:os]
+i was extremely happy with the os itself .
+[result:2, answer:2, aspect:portability]
+the new mbp offers great portability and gives us confidence that we are not going to need to purchase a new laptop in 18 months .
+[result:2, answer:2, aspect:portable computing]
+the criticism has waned , and now i 'd be the first to recommend an air for truly portable computing .
+[result:0, answer:0, aspect:windows 8]
+i would have given it 5 starts was it not for the fact that it had windows 8
+[result:2, answer:2, aspect:ms office 2011 for mac]
+ms office 2011 for mac is wonderful , well worth it .
+[result:0, answer:0, aspect:performance]
+but the performance of mac mini is a huge disappointment .
+[result:2, answer:2, aspect:look]
+they do n't just look good ; they deliver excellent performance .
+[result:2, answer:2, aspect:performance]
+they do n't just look good ; they deliver excellent performance .
+[result:2, answer:2, aspect:lit up keys]
+i have had it over a year now with out a glitch of any kind . . i love the lit up keys and screen display ... this thing is fast and clear as can be .
+[result:2, answer:2, aspect:screen display]
+i have had it over a year now with out a glitch of any kind . . i love the lit up keys and screen display ... this thing is fast and clear as can be .
+[result:2, answer:2, aspect:mountain lion os]
+the mountain lion os is not hard to figure out if you are familiar with microsoft windows .
+[result:1, answer:1, aspect:microsoft windows]
+the mountain lion os is not hard to figure out if you are familiar with microsoft windows .
+[result:2, answer:0, aspect:osx]
+however , i can refute that osx is `` fast '' .
+[result:2, answer:2, aspect:microsoft office]
+enjoy using microsoft office !
+[result:2, answer:2, aspect:graphics]
+incredible graphics and brilliant colors .
+[result:2, answer:2, aspect:colors]
+incredible graphics and brilliant colors .
+[result:2, answer:2, aspect:built-in apps]
+built-in apps are purely amazing .
+[result:1, answer:0, aspect:screen resolution]
+cons : screen resolution .
+[result:2, answer:2, aspect:operating system]
+from the speed to the multi touch gestures this operating system beats windows easily .
+[result:1, answer:0, aspect:windows]
+from the speed to the multi touch gestures this operating system beats windows easily .
+[result:2, answer:2, aspect:speed]
+from the speed to the multi touch gestures this operating system beats windows easily .
+[result:2, answer:2, aspect:multi touch gestures]
+from the speed to the multi touch gestures this operating system beats windows easily .
+[result:2, answer:2, aspect:size]
+i really like the size and i 'm a fan of the acers .
+[result:0, answer:2, aspect:squaretrade 3-year computer accidental protection warranty]
+i opted for the squaretrade 3-year computer accidental protection warranty -lrb- $ 1500-2000 -rrb- which also support `` accidents '' like drops and spills that are not covered by applecare .
+[result:0, answer:0, aspect:applecare]
+i opted for the squaretrade 3-year computer accidental protection warranty -lrb- $ 1500-2000 -rrb- which also support `` accidents '' like drops and spills that are not covered by applecare .
+[result:2, answer:2, aspect:transport]
+it 's light and easy to transport .
+[result:0, answer:0, aspect:windows 8 set-up]
+once you get past learning how to use the poorly designed windows 8 set-up you may feel frustrated .
+[result:1, answer:1, aspect:size]
+it 's been time for a new laptop , and the only debate was which size of the mac laptops , and whether to spring for the retina display .
+[result:1, answer:1, aspect:retina display]
+it 's been time for a new laptop , and the only debate was which size of the mac laptops , and whether to spring for the retina display .
+[result:2, answer:2, aspect:design]
+the reason why i choose apple macbook because of their design and the aluminum casing .
+[result:2, answer:2, aspect:aluminum casing]
+the reason why i choose apple macbook because of their design and the aluminum casing .
+[result:2, answer:2, aspect:aluminum body]
+the aluminum body sure makes it stand out .
+[result:2, answer:2, aspect:integrate bluetooth devices]
+it is very easy to integrate bluetooth devices , and usb devices are recognized almost instantly .
+[result:2, answer:2, aspect:usb devices]
+it is very easy to integrate bluetooth devices , and usb devices are recognized almost instantly .
+[result:0, answer:0, aspect:intel4000 graphic chip]
+and the fact that apple is driving the 13 '' rmbp with the intel4000 graphic chip seems underpowered -lrb- to me .
+[result:0, answer:1, aspect:dvd drive firewire port]
+apple removed the dvd drive firewire port -lrb- will work with adapter -rrb- and put the sdxc slot in a silly position on the back .
+[result:1, answer:1, aspect:adapter]
+apple removed the dvd drive firewire port -lrb- will work with adapter -rrb- and put the sdxc slot in a silly position on the back .
+[result:1, answer:0, aspect:sdxc slot]
+apple removed the dvd drive firewire port -lrb- will work with adapter -rrb- and put the sdxc slot in a silly position on the back .
+[result:2, answer:2, aspect:durability]
+the durability of the laptop will make it worth the money .
+[result:2, answer:2, aspect:designed]
+well designed and fast .
+[result:2, answer:2, aspect:use]
+but i was completely wrong , this computer is unbelievable amazing and easy to use .
+[result:2, answer:2, aspect:value]
+exactly as posted plus a great value .
+[result:2, answer:2, aspect:specs]
+the specs are pretty good too .
+[result:2, answer:2, aspect:product quality]
+apple is unmatched in product quality , aesthetics , craftmanship , and customer service .
+[result:2, answer:2, aspect:aesthetics]
+apple is unmatched in product quality , aesthetics , craftmanship , and customer service .
+[result:2, answer:2, aspect:craftmanship]
+apple is unmatched in product quality , aesthetics , craftmanship , and customer service .
+[result:2, answer:2, aspect:customer service]
+apple is unmatched in product quality , aesthetics , craftmanship , and customer service .
+[result:2, answer:2, aspect:size]
+it is a great size and amazing windows 8 included !
+[result:2, answer:2, aspect:windows 8]
+it is a great size and amazing windows 8 included !
+[result:0, answer:0, aspect:windows 8]
+i do not like too much windows 8 .
+[result:2, answer:0, aspect:startup times]
+startup times are incredibly long : over two minutes .
+[result:2, answer:2, aspect:colors]
+also stunning colors and speedy
+[result:2, answer:2, aspect:price]
+great price free shipping what else can i ask for !!
+[result:2, answer:2, aspect:shipping]
+great price free shipping what else can i ask for !!
+[result:2, answer:2, aspect:mouse]
+this mouse is terrific .
+[result:2, answer:1, aspect:battery]
+it is really thick around the battery .
+[result:2, answer:2, aspect:windows 7]
+and windows 7 works like a charm .
+[result:2, answer:2, aspect:price]
+:-rrb- great product , great price , great delivery , and great service .
+[result:2, answer:2, aspect:delivery]
+:-rrb- great product , great price , great delivery , and great service .
+[result:2, answer:2, aspect:service]
+:-rrb- great product , great price , great delivery , and great service .
+[result:2, answer:2, aspect:customer service]
+:] it arrived so fast and customer service was great .
+[result:0, answer:0, aspect:windows 8]
+tried windows 8 and hated it !!!
+[result:2, answer:2, aspect:set up]
+set up was a breeze .
+[result:0, answer:0, aspect:win8]
+but i do not like win8 .
+[result:2, answer:1, aspect:features]
+i am still in the process of learning about its features .
+[result:0, answer:0, aspect:price]
+i had the same reasons as most pc users : the price , the overbearing restrictions of osx and lack of support for games .
+[result:0, answer:0, aspect:osx]
+i had the same reasons as most pc users : the price , the overbearing restrictions of osx and lack of support for games .
+[result:0, answer:0, aspect:support for games]
+i had the same reasons as most pc users : the price , the overbearing restrictions of osx and lack of support for games .
+[result:2, answer:2, aspect:mobility]
+i wanted it for it 's mobility and man , this little bad boy is very nice .
+[result:2, answer:2, aspect:set up]
+i found the mini to be : exceptionally easy to set up
+[result:0, answer:2, aspect:usb3]
+having usb3 is why i bought this mini .
+[result:0, answer:2, aspect:sound]
+the sound is nice and loud ; i do n't have any problems with hearing anything .
+[result:2, answer:2, aspect:track pad]
+it is very slim , the track pad is very much impressed with me .
+[result:0, answer:0, aspect:settings]
+the settings are not user-friendly either .
+[result:2, answer:2, aspect:openoffice]
+thank goodness for openoffice !
+[result:2, answer:2, aspect:form factor]
+awesome form factor , great battery life , wonderful ux .
+[result:2, answer:2, aspect:battery life]
+awesome form factor , great battery life , wonderful ux .
+[result:2, answer:2, aspect:ux]
+awesome form factor , great battery life , wonderful ux .
+[result:2, answer:2, aspect:keyboard]
+i love the keyboard and the screen .
+[result:2, answer:2, aspect:screen]
+i love the keyboard and the screen .
+[result:0, answer:0, aspect:touchpad]
+however , there are major issues with the touchpad which render the device nearly useless .
+[result:2, answer:2, aspect:mavericks]
+i 've already upgraded o mavericks and i am impressed with everything about this computer .
+[result:0, answer:0, aspect:i5]
+not as fast as i would have expect for an i5 .
+[result:2, answer:2, aspect:service]
+thanks for great service and shipping !
+[result:2, answer:2, aspect:shipping]
+thanks for great service and shipping !
+[result:2, answer:2, aspect:performance]
+the performance seems quite good , and built-in applications like iphoto work great with my phone and camera .
+[result:2, answer:2, aspect:built-in applications]
+the performance seems quite good , and built-in applications like iphoto work great with my phone and camera .
+[result:2, answer:2, aspect:iphoto]
+the performance seems quite good , and built-in applications like iphoto work great with my phone and camera .
+[result:1, answer:1, aspect:hard drive]
+i did swap out the hard drive for a samsung 830 ssd which i highly recommend .
+[result:1, answer:2, aspect:samsung 830 ssd]
+i did swap out the hard drive for a samsung 830 ssd which i highly recommend .
+[result:2, answer:2, aspect:starts up]
+starts up in a hurry and everything is ready to go .
+[result:0, answer:0, aspect:aluminum]
+yes , that 's a good thing , but it 's made from aluminum that scratches easily .
+[result:0, answer:2, aspect:built in virus control]
+quick and has built in virus control .
+[result:1, answer:1, aspect:retina display]
+took a long time trying to decide between one with retina display and one without .
+[result:0, answer:0, aspect:components]
+i was also informed that the components of the mac book were dirty .
+[result:0, answer:0, aspect:hardware]
+the hardware problems have been so bad , i ca n't wait till it completely dies in 3 years , tops !
+[result:2, answer:2, aspect:battery]
+it 's so nice that the battery last so long and that this machine has the snow lion !
+[result:2, answer:2, aspect:snow lion]
+it 's so nice that the battery last so long and that this machine has the snow lion !
+[result:2, answer:0, aspect:shipping]
+however i chose two day shipping and it took over a week to arrive .
+[result:2, answer:2, aspect:features]
+it 's exactly what i wanted , and it has all the new features and whatnot .
+[result:1, answer:2, aspect:quality]
+can you buy any laptop that matches the quality of a macbook ?
+[result:0, answer:0, aspect:keyboard]
+it feels cheap , the keyboard is not very sensitive .
+[result:0, answer:0, aspect:sound quality]
+though please note that sometimes it crashes , and the sound quality isnt superb .
+[result:2, answer:2, aspect:navigate]
+it is very easy to navigate even for a novice .
+[result:2, answer:2, aspect:battery life]
+does everything i need it to , has a wonderful battery life and i could n't be happier .
+[result:2, answer:2, aspect:performance]
+great performance and quality .
+[result:2, answer:2, aspect:quality]
+great performance and quality .
+[result:1, answer:1, aspect:windows xp]
+i used windows xp , windows vista , and windows 7 extensively .
+[result:1, answer:1, aspect:windows vista]
+i used windows xp , windows vista , and windows 7 extensively .
+[result:1, answer:1, aspect:windows 7]
+i used windows xp , windows vista , and windows 7 extensively .
+[result:1, answer:1, aspect:ssd drive]
+i did add a ssd drive and memory
+[result:1, answer:1, aspect:memory]
+i did add a ssd drive and memory
+[result:0, answer:0, aspect:start up]
+on start up it asks endless questions just so itune can sell you more of their products .
+[result:0, answer:0, aspect:itune]
+on start up it asks endless questions just so itune can sell you more of their products .
+[result:1, answer:1, aspect:os]
+i have been a pc user for a very long time now but i will get used to this new os .
+[result:0, answer:0, aspect:restore disks]
+one more thing , this mac does not come with restore disks and i am not sure if you can make them direct from the mac like you can with newer pc 's , also the charging cables are made of the same cheap material as the iphone/ipod touch cables .
+[result:0, answer:0, aspect:charging cables]
+one more thing , this mac does not come with restore disks and i am not sure if you can make them direct from the mac like you can with newer pc 's , also the charging cables are made of the same cheap material as the iphone/ipod touch cables .
+[result:2, answer:0, aspect:material]
+one more thing , this mac does not come with restore disks and i am not sure if you can make them direct from the mac like you can with newer pc 's , also the charging cables are made of the same cheap material as the iphone/ipod touch cables .
+[result:0, answer:1, aspect:graphic design]
+i bought it to my son who uses it for graphic design .
+[result:0, answer:1, aspect:external mics]
+i never tried any external mics with that imac .
+[result:2, answer:2, aspect:os]
+the new os is great on my macbook pro !
+[result:0, answer:2, aspect:works]
+i have experienced no problems , works as anticipated .
+[result:2, answer:2, aspect:system]
+system is running great .
+[result:2, answer:2, aspect:customize setting]
+easy to customize setting and even create your own bookmarks .
+[result:2, answer:2, aspect:create your own bookmarks]
+easy to customize setting and even create your own bookmarks .
+[result:1, answer:1, aspect:wireless keyboard / mouse]
+the mac mini , wireless keyboard / mouse and a hdmi cable is all i need to get some real work done .
+[result:1, answer:1, aspect:hdmi cable]
+the mac mini , wireless keyboard / mouse and a hdmi cable is all i need to get some real work done .
+[result:2, answer:2, aspect:features]
+it has all the features that we expected and the price was good , working well so far .
+[result:2, answer:2, aspect:price]
+it has all the features that we expected and the price was good , working well so far .
+[result:2, answer:2, aspect:working]
+it has all the features that we expected and the price was good , working well so far .
+[result:1, answer:1, aspect:gaming]
+i work as a designer and coder and i needed a new buddy to work with , not gaming .
+[result:2, answer:2, aspect:operating system]
+the new operating system makes this computer into a super ipad .
+[result:2, answer:2, aspect:set up]
+easy to set up and go !
+[result:2, answer:2, aspect:hard drive]
+i ca n't believe how quiet the hard drive is and how quick this thing boots up .
+[result:2, answer:2, aspect:boots up]
+i ca n't believe how quiet the hard drive is and how quick this thing boots up .
+[result:0, answer:0, aspect:scanning]
+the only issue came when i tried scanning to the mac .
+[result:0, answer:1, aspect:price point]
+i think this is about as good as it gets at anything close to this price point .
+[result:2, answer:2, aspect:works]
+it 's just what we were looking for and it works great .
+[result:2, answer:2, aspect:working]
+it 's so quick and responsive that it makes working / surfing on a computer so much more pleasurable !
+[result:2, answer:2, aspect:surfing]
+it 's so quick and responsive that it makes working / surfing on a computer so much more pleasurable !
+[result:2, answer:2, aspect:works]
+it works fine , and all the software seems to run pretty well .
+[result:2, answer:2, aspect:software]
+it works fine , and all the software seems to run pretty well .
+[result:1, answer:1, aspect:word processing]
+i 'm using this computer for word processing , web browsing , some gaming , and i 'm learning programming .
+[result:1, answer:1, aspect:web browsing]
+i 'm using this computer for word processing , web browsing , some gaming , and i 'm learning programming .
+[result:1, answer:1, aspect:gaming]
+i 'm using this computer for word processing , web browsing , some gaming , and i 'm learning programming .
+[result:1, answer:1, aspect:programming]
+i 'm using this computer for word processing , web browsing , some gaming , and i 'm learning programming .
+[result:0, answer:0, aspect:function]
+my wife was so excited to open the box , but quickly came to see that it did not function as it should .
+[result:2, answer:1, aspect:performance]
+i wanted a computer that was quite , fast , and that had overall great performance .
+[result:1, answer:0, aspect:apple "help"]
+apple "help" is a mixed bag .
+[result:0, answer:0, aspect:work]
+it suddenly can not work .
+[result:0, answer:0, aspect:harddrive]
+harddrive was in poor condition , had to replace it .
+[result:0, answer:0, aspect:on/off switch]
+the on/off switch is a bit obscure in the rear corner .
+[result:0, answer:0, aspect:instructions]
+my only complaint is the total lack of instructions that come with the mac mini .
+[result:0, answer:0, aspect:gaming]
+the only task that this computer would not be good enough for would be gaming , otherwise the integrated intel 4000 graphics work well for other tasks .
+[result:1, answer:2, aspect:content creation]
+i use it mostly for content creation -lrb- audio , video , photo editing -rrb- and its reliable .
+[result:1, answer:2, aspect:audio]
+i use it mostly for content creation -lrb- audio , video , photo editing -rrb- and its reliable .
+[result:1, answer:2, aspect:video]
+i use it mostly for content creation -lrb- audio , video , photo editing -rrb- and its reliable .
+[result:2, answer:2, aspect:photo editing]
+i use it mostly for content creation -lrb- audio , video , photo editing -rrb- and its reliable .
+[result:2, answer:2, aspect:screen]
+screen is bright and gorgeous .
+[result:1, answer:1, aspect:brightness]
+the only solution is to turn the brightness down , etc. .
+[result:1, answer:1, aspect:applications]
+if you want more information on macs i suggest going to apple.com and heading towards the macbook page for more information on the applications .
+[result:2, answer:2, aspect:use]
+it is robust , with a friendly use as all apple products .
+[result:2, answer:2, aspect:use]
+it is fast and easy to use .
+[result:2, answer:2, aspect:i5 processor]
+and the fact that it comes with an i5 processor definitely speeds things up
+[result:2, answer:2, aspect:built in features]
+i have been pc for years but this computer is intuitive and its built in features are a great help
+[result:2, answer:2, aspect:screen]
+nice screen , keyboard works great !
+[result:2, answer:2, aspect:keyboard]
+nice screen , keyboard works great !
+[result:2, answer:2, aspect:delivery]
+i was amazed at how fast the delivery was .
+[result:1, answer:1, aspect:ssd]
+i 've installed to it additional ssd and 16gb ram .
+[result:1, answer:1, aspect:16gb ram]
+i 've installed to it additional ssd and 16gb ram .
+[result:0, answer:0, aspect:memory]
+the memory was gone and it was not able to be used .
+[result:2, answer:2, aspect:works]
+it works great and i am so happy i bought it .
+[result:2, answer:2, aspect:design]
+i like the design and ease of use with the keyboard , plenty of ports .
+[result:2, answer:2, aspect:keyboard]
+i like the design and ease of use with the keyboard , plenty of ports .
+[result:2, answer:2, aspect:ports]
+i like the design and ease of use with the keyboard , plenty of ports .
+[result:2, answer:2, aspect:service]
+it definitely beats my old mac and the service was great .
+[result:2, answer:2, aspect:web browsing]
+web browsing is very quick with safari browser .
+[result:1, answer:2, aspect:safari browser]
+web browsing is very quick with safari browser .
+[result:1, answer:2, aspect:lighted screen]
+i like the lighted screen at night .
+[result:2, answer:2, aspect:use]
+it is really easy to use and it is quick to start up .
+[result:2, answer:2, aspect:start up]
+it is really easy to use and it is quick to start up .
+[result:0, answer:0, aspect:operation]
+i 've lived with the crashes and slow operation and restarts .
+[result:0, answer:2, aspect:usb3 peripherals]
+usb3 peripherals are noticably less expensive than the thunderbolt ones .
+[result:0, answer:0, aspect:thunderbolt]
+usb3 peripherals are noticably less expensive than the thunderbolt ones .
+[result:0, answer:2, aspect:warranty]
+and mine had broke but i sent it in under warranty - no problems .
+[result:2, answer:2, aspect:media editing]
+it 's fast , light , and is perfect for media editing , which is mostly why i bought it in the first place .
+[result:2, answer:2, aspect:battery]
+the battery lasts as advertised -lrb- give or take 15-20 minutes -rrb- , and the entire user experience is very elegant .
+[result:2, answer:2, aspect:user experience]
+the battery lasts as advertised -lrb- give or take 15-20 minutes -rrb- , and the entire user experience is very elegant .
+[result:2, answer:2, aspect:shipment]
+thanks for the fast shipment and great price .
+[result:2, answer:2, aspect:price]
+thanks for the fast shipment and great price .
+[result:2, answer:2, aspect:performance]
+! excelent performance , usability , presentation and time response .
+[result:2, answer:2, aspect:usability]
+! excelent performance , usability , presentation and time response .
+[result:2, answer:2, aspect:presentation]
+! excelent performance , usability , presentation and time response .
+[result:2, answer:2, aspect:time response]
+! excelent performance , usability , presentation and time response .
+[result:2, answer:2, aspect:size]
+the smaller size was a bonus because of space restrictions .
+[result:0, answer:0, aspect:mac os]
+i blame the mac os .
+[result:2, answer:1, aspect:legacy programs]
+in fact i still use many legacy programs -lrb- appleworks , filemaker pro , quicken , photoshop etc -rrb- !
+[result:1, answer:1, aspect:appleworks]
+in fact i still use manylegacy programs -lrb- appleworks , filemaker pro , quicken , photoshop etc -rrb- !
+[result:1, answer:1, aspect:filemaker pro]
+in fact i still use manylegacy programs -lrb- appleworks , filemaker pro , quicken , photoshop etc -rrb- !
+[result:1, answer:1, aspect:quicken]
+in fact i still use manylegacy programs -lrb- appleworks , filemaker pro , quicken , photoshop etc -rrb- !
+[result:1, answer:1, aspect:photoshop]
+in fact i still use manylegacy programs -lrb- appleworks , filemaker pro , quicken , photoshop etc -rrb- !
+[result:1, answer:2, aspect:operating system]
+i like the operating system .
+[result:2, answer:2, aspect:form factor]
+i love the form factor .
+[result:1, answer:2, aspect:loading the internet]
+it 's fast at loading the internet .
+[result:2, answer:2, aspect:looking]
+so much faster and sleeker looking .
+[result:1, answer:1, aspect:xp]
+unfortunately , it runs xp and microsoft is dropping support next april .
+[result:0, answer:0, aspect:support]
+unfortunately , it runs xp and microsoft is dropping support next april .
+[result:2, answer:2, aspect:os]
+first off , i really do like my mbp ... once used to the os it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .
+[result:2, answer:2, aspect:overall build]
+first off , i really do like my mbp ... once used to the os it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .
+[result:2, answer:2, aspect:keyboard]
+first off , i really do like my mbp ... once used to the os it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .
+[result:2, answer:2, aspect:construction]
+it is made of such solid construction and since i have never had a mac using my iphone helped me get used to the system a bit .
+[result:2, answer:1, aspect:system]
+it is made of such solid construction and since i have never had a mac using my iphone helped me get used to the system a bit .
+[result:2, answer:2, aspect:unibody construction]
+very nice unibody construction .
+[result:2, answer:2, aspect:runs]
+this macbook pro is fast , powerful , and runs super quiet and cool .
+[result:0, answer:1, aspect:disk drive]
+it 's ok but does n't have a disk drive which i did n't know until after i bought it .
+[result:0, answer:1, aspect:hdmi receptacle]
+there is no hdmi receptacle , nor is there an sd card slot located anywhere on the device .
+[result:0, answer:1, aspect:sd card slot]
+there is no hdmi receptacle , nor is there an sd card slot located anywhere on the device .
+[result:2, answer:2, aspect:works]
+it came in brand new and works perfectly .
+[result:0, answer:1, aspect:design app]
+it should n't happen like that , i do n't have any design app open or anything .
+[result:0, answer:0, aspect:trackpad]
+my trackpad is not working .
+[result:2, answer:2, aspect:finish]
+it looks and feels solid , with a flawless finish .
+[result:2, answer:2, aspect:looks]
+it looks and feels solid , with a flawless finish .
+[result:2, answer:2, aspect:feels]
+it looks and feels solid , with a flawless finish .
+[result:0, answer:0, aspect:price]
+price was higher when purchased on mac when compared to price showing on pc when i bought this product .
+[result:0, answer:2, aspect:price]
+price was higher when purchased on mac when compared to price showing on pc when i bought this product .
+[result:0, answer:0, aspect:system]
+then the system would many times not power down without a forced power-off .
+[result:0, answer:0, aspect:power down]
+then the system would many times not power down without a forced power-off .
+[result:2, answer:2, aspect:configuration]
+the configuration is perfect for my needs .
+[result:0, answer:0, aspect:speakers]
+and the speakers is the worst ever .
+[result:2, answer:2, aspect:looks]
+its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .
+[result:2, answer:2, aspect:use]
+its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .
+[result:2, answer:2, aspect:trackpad]
+its the best , its got the looks , super easy to use and love all you can do with the trackpad ! . .
+[result:2, answer:2, aspect:web surfuring]
+web surfuring is smooth and seamless .
+[result:2, answer:2, aspect:interface]
+i 'm overall pleased with the interface and the portability of this product .
+[result:2, answer:2, aspect:portability]
+i 'm overall pleased with the interface and the portability of this product .
+[result:2, answer:2, aspect:works]
+this item is a beautiful piece , it works well , it is easy to carry and handle .
+[result:2, answer:2, aspect:carry]
+this item is a beautiful piece , it works well , it is easy to carry and handle .
+[result:2, answer:2, aspect:handle]
+this item is a beautiful piece , it works well , it is easy to carry and handle .
+[result:0, answer:0, aspect:performance]
+it was also suffering from hardware -lrb- keyboard -rrb- issues , relatively slow performance and shortening battery lifetime .
+[result:2, answer:0, aspect:battery lifetime]
+it was also suffering from hardware -lrb- keyboard -rrb- issues , relatively slow performance and shortening battery lifetime .
+[result:0, answer:0, aspect:hardware (keyboard)]
+it was also suffering from hardware (keyboard) issues , relatively slow performance and shortening battery lifetime .
+[result:2, answer:2, aspect:runs]
+runs good and does the job , ca n't complain about that !
+[result:0, answer:2, aspect:footprint]
+it 's silent and has a very small footprint on my desk .
+[result:2, answer:2, aspect:exterior]
+the exterior is absolutely gorgeous .
+[result:2, answer:2, aspect:performance]
+it has a very high performance , just for what i needed for .
+[result:0, answer:1, aspect:intel 4000 graphics chipset]
+apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .
+[result:0, answer:1, aspect:design]
+apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .
+[result:2, answer:1, aspect:osx mountain lion]
+osx mountain lion soon to upgrade to mavericks .
+[result:2, answer:1, aspect:mavericks]
+osx mountain lion soon to upgrade to mavericks .
+[result:0, answer:0, aspect:usb ports]
+i just bought the new macbook pro , the 13 '' model , and i ca n't believe apple keeps making the same mistake with regard to usb ports .
+[result:1, answer:1, aspect:lid]
+it wakes in less than a second when i open the lid .
+[result:0, answer:2, aspect:wakes]
+it wakes in less than a second when i open the lid .
+[result:2, answer:2, aspect:size]
+it is the perfect size and speed for me .
+[result:2, answer:2, aspect:speed]
+it is the perfect size and speed for me .
+[result:2, answer:2, aspect:customer service]
+the customer service is terrific !!
+[result:2, answer:2, aspect:performed]
+my last laptop was a 17 '' asus gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , i found myself wanting something smaller and less cumbersome , not to mention that the asus had been slowly developing problems ever since i bought it about 4 years ago .
+[result:0, answer:2, aspect:battery cycle count]
+however , it did not have any scratches , zero battery cycle count -lrb- pretty surprised -rrb- , and all the hardware seemed to be working perfectly .
+[result:0, answer:2, aspect:hardware]
+however , it did not have any scratches , zero battery cycle count -lrb- pretty surprised -rrb- , and all the hardware seemed to be working perfectly .
+[result:0, answer:0, aspect:os]
+after fumbling around with the os i started searching the internet for a fix and found a number of forums on fixing the issue .
+[result:0, answer:0, aspect:finger swipes]
+and as for all the fancy finger swipes -- i just gave up and attached a mouse .
+[result:1, answer:1, aspect:mouse]
+and as for all the fancy finger swipes -- i just gave up and attached a mouse .
+[result:2, answer:1, aspect:storage]
+i needed a laptop with big storage , a nice screen and fast so i can photoshop without any problem .
+[result:2, answer:1, aspect:screen]
+i needed a laptop with big storage , a nice screen and fast so i can photoshop without any problem .
+[result:2, answer:1, aspect:photoshop]
+i needed a laptop with big storage , a nice screen and fast so i can photoshop without any problem .
+[result:2, answer:2, aspect:mac os]
+i like coming back to mac os but this laptop is lacking in speaker quality compared to my $ 400 old hp laptop .
+[result:0, answer:0, aspect:speaker quality]
+i like coming back to mac os but this laptop is lacking in speaker quality compared to my $ 400 old hp laptop .
+[result:2, answer:2, aspect:shipped]
+shipped very quickly and safely .
+[result:2, answer:2, aspect:thunderbolt port]
+the thunderbolt port is awesome !
+[result:2, answer:2, aspect:performance]
+the performance is definitely superior to any computer i 've ever put my hands on .
+[result:2, answer:2, aspect:streaming video]
+it 's great for streaming video and other entertainment uses .
+[result:2, answer:2, aspect:entertainment uses]
+it 's great for streaming video and other entertainment uses .
+[result:2, answer:2, aspect:design]
+i like the design and its features but there are somethings i think needs to be improved .
+[result:2, answer:2, aspect:features]
+i like the design and its features but there are somethings i think needs to be improved .
+[result:0, answer:0, aspect:mac office]
+there were small problems with mac office .
+[result:1, answer:1, aspect:apple tech support]
+i understand i should call apple tech support about any variables -lrb- which is my purpose of writing this con -rrb- as variables could be a bigger future problem .
+[result:0, answer:0, aspect:spec]
+i ordered my 2012 mac mini after being disappointed with spec of the new 27 '' imacs .
+[result:2, answer:2, aspect:works]
+it still works and it 's extremely user friendly , so i would recommend it for new computer user and also for those who are just looking for a more efficient way to do things
+[result:2, answer:2, aspect:use]
+its fast , easy to use and it looks great .
+[result:2, answer:2, aspect:looks]
+its fast , easy to use and it looks great .
+[result:1, answer:1, aspect:office]
+-lrb- but office can be purchased -rrb- if i ever need a laptop again i am for sure purchasing another toshiba !!
+[result:2, answer:1, aspect:retina display]
+i have n't tried the one with retina display ... maybe in the future .
+[result:2, answer:2, aspect:performance]
+performance is much much better on the pro , especially if you install an ssd on it .
+[result:0, answer:2, aspect:ssd]
+performance is much much better on the pro , especially if you install an ssd on it .
+[result:0, answer:1, aspect:magsafe accessories]
+note , however , that any existing magsafe accessories you have will not work with the magsafe 2 connection .
+[result:1, answer:0, aspect:magsafe 2 connection]
+note , however , that any existing magsafe accessories you have will not work with the magsafe 2 connection .
+[result:0, answer:0, aspect:touchpad]
+the only thing i dislike is the touchpad , alot of the times its unresponsive and does things i dont want it too , i would recommend using a mouse with it .
+[result:1, answer:1, aspect:mouse]
+the only thing i dislike is the touchpad , alot of the times its unresponsive and does things i dont want it too , i would recommend using a mouse with it .
+[result:2, answer:2, aspect:runs]
+the mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc
+[result:2, answer:2, aspect:fans]
+the mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc
+[result:2, answer:0, aspect:mac os]
+maybe the mac os improvement were not the product they want to offer .
+[result:1, answer:1, aspect:mac ecosystem]
+i thought the transition would be difficult at best and would take some time to fully familiarize myself with the new mac ecosystem .
+[result:2, answer:2, aspect:price]
+it 's absolutely wonderful and worth the price !
+[result:2, answer:2, aspect:use]
+i am please with the products ease of use ; out of the box ready ; appearance and functionality .
+[result:1, answer:2, aspect:appearance]
+i am please with the products ease of use ; out of the box ready ; appearance and functionality .
+[result:1, answer:2, aspect:functionality]
+i am please with the products ease of use ; out of the box ready ; appearance and functionality .
+[result:2, answer:2, aspect:graphic design]
+perfect for all my graphic design classes i 'm taking this year in college : - -rrb-
+[result:1, answer:0, aspect:slot]
+i will not be using that slot again .
+[result:2, answer:2, aspect:os]
+the os is fast and fluid , everything is organized and it 's just beautiful .
+[result:2, answer:2, aspect:use]
+they are simpler to use .
+[result:0, answer:2, aspect:ssd]
+! so nice . . stable . . fast . . now i got my ssd !
+[result:0, answer:1, aspect:built-in camera]
+also , in using the built-in camera , my voice recording for my vlog sounds like the interplanetary transmissions in the `` star wars '' saga .
+[result:0, answer:0, aspect:voice recording]
+also , in using the built-in camera , my voice recording for my vlog sounds like the interplanetary transmissions in the `` star wars '' saga .
+[result:2, answer:2, aspect:start up]
+i love the quick start up .
+[result:1, answer:2, aspect:functionality]
+you just can not beat the functionality of an apple device .
+[result:0, answer:2, aspect:function]
+yet my mac continues to function properly .
+[result:2, answer:2, aspect:graphics]
+graphics are much improved .
+[result:2, answer:2, aspect:build quality]
+here are the things that made me confident with my purchase : build quality - seriously , you ca n't beat a unibody construction .
+[result:2, answer:2, aspect:unibody construction]
+here are the things that made me confident with my purchase : build quality - seriously , you ca n't beat a unibody construction .
+[result:2, answer:2, aspect:flexibility for connectivity]
+it provides much more flexibility for connectivity .
+[result:2, answer:2, aspect:portability]
+i want the portability of a tablet , without the limitations of a tablet and that 's where this laptop comes into play .
+[result:2, answer:2, aspect:mac tutorials]
+mac tutorials do help .
+[result:0, answer:0, aspect:technical support]
+the technical support was not helpful as well .
+[result:0, answer:1, aspect:adapter]
+i got the new adapter and there was no change .
+[result:1, answer:1, aspect:technical support]
+so i called technical support .
+[result:2, answer:1, aspect:iphoto]
+came with iphoto and garage band already loaded .
+[result:1, answer:1, aspect:garage band]
+came with iphoto and garage band already loaded .
+[result:0, answer:2, aspect:logic board]
+logic board utterly fried , cried , and laid down and died .
+[result:0, answer:0, aspect:sound]
+the sound was crappy even when you turn up the volume still the same results .
+[result:0, answer:0, aspect:volume]
+the sound was crappy even when you turn up the volume still the same results .
+[result:2, answer:2, aspect:osx lion]
+osx lion is a great performer . . extremely fast and reliable .
+[result:0, answer:0, aspect:application]
+having heard from friends and family about how reliable a mac product is , i never expected to have an application crash within the first month , but i did .
+[result:2, answer:2, aspect:physical form]
+the macbook pro 's physical form is wonderful .
+[result:2, answer:2, aspect:body]
+the mini 's body has n't changed since late 2010 - and for a good reason .
+[result:2, answer:2, aspect:unibody construction]
+the unibody construction really does feel lot more solid than apple 's previous laptops .
+[result:0, answer:0, aspect:3d rendering]
+3d rendering slows it down considerably .
+[result:2, answer:1, aspect:os x mountain lion]
+got this mac mini with os x mountain lion for my wife .
+[result:2, answer:2, aspect:screen]
+fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - otd !
+[result:2, answer:2, aspect:apps]
+fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - otd !
+[result:2, answer:1, aspect:priced]
+fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon-cost me 998 plus tax - 1070 - otd !
+[result:2, answer:1, aspect:cost]
+fast , great screen , beautiful apps for a laptop ; priced at 1100 on the apple website ; amazon had it for 1098 + tax - plus i had a 10 % off coupon from amazon - cost me 998 plus tax - 1070 - otd !
+[result:1, answer:1, aspect:boot]
+12.44 seconds to boot .
+[result:0, answer:1, aspect:ports]
+all the ports are much needed since this is my main computer .
+[result:1, answer:1, aspect:quad-core 2.5 ghz cpu]
+the like new condition of the imac mc309ll/a on amazon is at $ 900 + level only , and it is a quad-core 2.5 ghz cpu -lrb- similar to the $ 799 mini -rrb- , with radeon hd 6750m 512mb graphic card -lrb- this mini is integrated intel 4000 card -rrb- , and it even comes with wireless apple keyboard and mouse , all put together in neat and nice package .
+[result:1, answer:1, aspect:radeon hd 6750m 512mb graphic card]
+the like new condition of the imac mc309ll/a on amazon is at $ 900 + level only , and it is a quad-core 2.5 ghz cpu -lrb- similar to the $ 799 mini -rrb- , with radeon hd 6750m 512mb graphic card -lrb- this mini is integrated intel 4000 card -rrb- , and it even comes with wireless apple keyboard and mouse , all put together in neat and nice package .
+[result:1, answer:1, aspect:integrated intel 4000 card]
+the like new condition of the imac mc309ll/a on amazon is at $ 900 + level only , and it is a quad-core 2.5 ghz cpu -lrb- similar to the $ 799 mini -rrb- , with radeon hd 6750m 512mb graphic card -lrb- this mini is integrated intel 4000 card -rrb- , and it even comes with wireless apple keyboard and mouse , all put together in neat and nice package .
+[result:2, answer:1, aspect:wireless apple keyboard and mouse]
+the like new condition of the imac mc309ll/a on amazon is at $ 900 + level only , and it is a quad-core 2.5 ghz cpu -lrb- similar to the $ 799 mini -rrb- , with radeon hd 6750m 512mb graphic card -lrb- this mini is integrated intel 4000 card -rrb- , and it even comes with wireless apple keyboard and mouse , all put together in neat and nice package .
+[result:2, answer:2, aspect:package]
+the like new condition of the imac mc309ll/a on amazon is at $ 900 + level only , and it is a quad-core 2.5 ghz cpu -lrb- similar to the $ 799 mini -rrb- , with radeon hd 6750m 512mb graphic card -lrb- this mini is integrated intel 4000 card -rrb- , and it even comes with wireless apple keyboard and mouse , all put together in neat and nice package .
+[result:0, answer:1, aspect:cover]
+put a cover on it and is a little better but that is my only complaint .
+[result:2, answer:2, aspect:gestures]
+within a few hours i was using the gestures unconsciously .
+[result:2, answer:1, aspect:extender cable]
+this mac does come with an extender cable and i 'm using mine right now hoping the cable will stay nice for the many years i plan on using this mac .
+[result:2, answer:2, aspect:cable]
+this mac does come with an extender cable and i 'm using mine right now hoping the cable will stay nice for the many years i plan on using this mac .
+[result:2, answer:2, aspect:2.9ghz dual-core i7 chip]
+the 2.9ghz dual-core i7 chip really out does itself .
+[result:2, answer:2, aspect:starts up]
+it is pretty snappy and starts up in about 30 seconds which is good enough for me .
+[result:0, answer:1, aspect:windows 8]
+not sure on windows 8 .
+[result:0, answer:0, aspect:internal cd drive]
+my one complaint is that there was no internal cd drive .
+[result:0, answer:1, aspect:hard drive]
+this newer netbook has no hard drive or network lights .
+[result:2, answer:1, aspect:network lights]
+this newer netbook has no hard drive or network lights .
+[result:1, answer:1, aspect:priced]
+i was having a though time deciding between the 13 '' macbook air or the macbook pro 13 '' -lrb- both baseline models , priced at 1,200 $ retail -rrb-
+[result:2, answer:2, aspect:storage]
+not too expense and has enough storage for most users and many ports .
+[result:0, answer:2, aspect:ports]
+not too expense and has enough storage for most users and many ports .
+[result:0, answer:0, aspect:audio volume]
+the audio volume is quite low and virtually unusable in a room with any background activity .
+[result:2, answer:2, aspect:size]
+it is lightweight and the perfect size to carry to class .
+[result:1, answer:1, aspect:windows 8]
+i was given a demonstration of windows 8 .
+[result:2, answer:2, aspect:capabilities]
+the mbp is beautiful has many wonderful capabilities .
+[result:1, answer:1, aspect:settings]
+i thought that it will be fine , if i do some settings .
+[result:2, answer:2, aspect:runs]
+runs very smoothly .
+[result:0, answer:0, aspect:boot-up]
+boot-up slowed significantly after all windows updates were installed .
+[result:0, answer:0, aspect:windows updates]
+boot-up slowed significantly after all windows updates were installed .
+[result:0, answer:0, aspect:logic board]
+more likely it will require replacing the logic board once they admit they have a problem and come up with a solution .
+[result:1, answer:2, aspect:internet]
+it was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .
+[result:1, answer:2, aspect:word processing]
+it was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .
+[result:1, answer:2, aspect:graphic design]
+it was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .
+[result:1, answer:2, aspect:gaming]
+it was important that it was powerful enough to do all of the tasks he needed on the internet , word processing , graphic design and gaming .
+[result:2, answer:2, aspect:setup]
+i like the mini mac it was easy to setup and install , but i am learning as i go and could use a tutorial to learn how to use some of the features i was use to on the pc especially the right mouse click menu .
+[result:2, answer:2, aspect:install]
+i like the mini mac it was easy to setup and install , but i am learning as i go and could use a tutorial to learn how to use some of the features i was use to on the pc especially the right mouse click menu .
+[result:1, answer:1, aspect:tutorial]
+i like the mini mac it was easy to setup and install , but i am learning as i go and could use a tutorial to learn how to use some of the features i was use to on the pc especially the right mouse click menu .
+[result:1, answer:1, aspect:features]
+i like the mini mac it was easy to setup and install , but i am learning as i go and could use a tutorial to learn how to use some of the features i was use to on the pc especially the right mouse click menu .
+[result:1, answer:1, aspect:right mouse click menu]
+i like the mini mac it was easy to setup and install , but i am learning as i go and could use a tutorial to learn how to use some of the features i was use to on the pc especially the right mouse click menu .
+[result:2, answer:2, aspect:runs]
+runs real quick .
+[result:1, answer:2, aspect:ram memory]
+buy the separate ram memory and you will have a rocket !
+[result:0, answer:0, aspect:profile]
+since the machine 's slim profile is critical to me , that was a problem .
+[result:2, answer:2, aspect:disk drive]
+wifi capability , disk drive and multiple usb ports to connect scale and printers was all that was required .
+[result:2, answer:2, aspect:usb ports]
+wifi capability , disk drive and multiple usb ports to connect scale and printers was all that was required .
+[result:2, answer:2, aspect:wifi capability]
+wifi capability , disk drive and multiple usb ports to connect scale and printers was all that was required .
+[result:0, answer:0, aspect:sd card reader]
+the sd card reader is slightly recessed and upside down -lrb- the nail slot on the card can not be accessed -rrb- , if this was a self ejecting slot this would not be an issue , but its not .
+[result:1, answer:0, aspect:nail slot on the card]
+the sd card reader is slightly recessed and upside down -lrb- the nail slot on the card can not be accessed -rrb- , if this was a self ejecting slot this would not be an issue , but its not .
+[result:0, answer:0, aspect:slot]
+the sd card reader is slightly recessed and upside down -lrb- the nail slot on the card can not be accessed -rrb- , if this was a self ejecting slot this would not be an issue , but its not .
+[result:2, answer:2, aspect:touch]
+soft touch , anodized aluminum with laser cut precision and no flaws .
+[result:2, answer:2, aspect:anodized aluminum]
+soft touch , anodized aluminum with laser cut precision and no flaws .
+[result:0, answer:2, aspect:aluminium]
+simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .
+[result:2, answer:2, aspect:glass]
+simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .
+[result:2, answer:2, aspect:aluminum]
+first of all yes this is a mac and it has that nice brushed aluminum .
+[result:1, answer:1, aspect:16gb of ram]
+after all was said and done , i essentially used that $ 450 savings to buy 16gb of ram , two seagate momentus xt hybrid drives and an owc upgrade kit to install the second hard drive .
+[result:1, answer:1, aspect:seagate momentus xt hybrid drives]
+after all was said and done , i essentially used that $ 450 savings to buy 16gb of ram , two seagate momentus xt hybrid drives and an owc upgrade kit to install the second hard drive .
+[result:1, answer:1, aspect:owc upgrade kit]
+after all was said and done , i essentially used that $ 450 savings to buy 16gb of ram , two seagate momentus xt hybrid drives and an owc upgrade kit to install the second hard drive .
+[result:1, answer:1, aspect:hard drive]
+after all was said and done , i essentially used that $ 450 savings to buy 16gb of ram , two seagate momentus xt hybrid drives and an owc upgrade kit to install the second hard drive .
+[result:1, answer:2, aspect:number pad on the keyboard]
+the dell inspiron is fast and has a number pad on the keyboard , which i miss on my apple laptops .
+[result:0, answer:2, aspect:regular hard drive]
+i was concerned that the downgrade to the regular hard drive would make it unacceptably slow but i need not have worried - this machine is the fastest i have ever owned ...
+[result:0, answer:1, aspect:cd slot]
+this one still has the cd slot .
+[result:0, answer:1, aspect:hdmi port]
+no hdmi port .
+[result:2, answer:0, aspect:install mountain lion]
+i had to install mountain lion and it took a good two hours .
+[result:0, answer:0, aspect:customization]
+customization on mac is impossible .
+[result:1, answer:1, aspect:hd]
+i am replacing the hd with a micron ssd soon .
+[result:1, answer:1, aspect:micron ssd]
+i am replacing the hd with a micron ssd soon .
+[result:2, answer:2, aspect:two finger clicking]
+plus two finger clicking as a replacement for the right click button is surprisingly intuitive .
+[result:2, answer:1, aspect:right click button]
+plus two finger clicking as a replacement for the right click button is surprisingly intuitive .
+[result:2, answer:2, aspect:superdrive]
+the superdrive is quiet .
+[result:0, answer:0, aspect:power plug]
+the power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .
+[result:0, answer:1, aspect:power adaptor]
+the power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .
+[result:0, answer:1, aspect:battery]
+the power plug has to be connected to the power adaptor to charge the battery but wo n't stay connected .
+[result:0, answer:0, aspect:battery]
+the battery was completely dead , in fact it had grown about a quarter inch thick lump on the underside .
+[result:1, answer:2, aspect:practicality]
+if yo like practicality this is the laptop for you .
+[result:2, answer:2, aspect:os]
+the os is great .
+[result:1, answer:1, aspect:monitors]
+i tried several monitors and several hdmi cables and this was the case each time .
+[result:1, answer:1, aspect:hdmi cables]
+i tried several monitors and several hdmi cables and this was the case each time .
+[result:0, answer:0, aspect:price]
+cons : price is a bit ridiculous , kinda heavy .
+[result:1, answer:1, aspect:ac adaptor]
+the troubleshooting said it was the ac adaptor so we ordered a new one .
+[result:1, answer:1, aspect:fan]
+fan only comes on when you are playing a game .
+[result:1, answer:1, aspect:playing a game]
+fan only comes on when you are playing a game .
+[result:0, answer:1, aspect:usb 2 ports]
+which it did not have , only 3 usb 2 ports .
+[result:0, answer:1, aspect:startup disk]
+no startup disk was not included but that may be my fault .
+[result:0, answer:1, aspect:"tools" menu]
+there is no "tools" menu .
+[result:2, answer:0, aspect:word program]
+it is very fast and has everything that i need except for a word program .
+[result:0, answer:1, aspect:cd/dvd drive]
+needs a cd/dvd drive and a bigger power switch .
+[result:0, answer:0, aspect:power switch]
+needs a cd/dvd drive and a bigger power switch .
+[result:0, answer:0, aspect:windows 7]
+my laptop with windows 7 crashed and i did not want windows 8 .
+[result:0, answer:0, aspect:windows 8]
+my laptop with windows 7 crashed and i did not want windows 8 .
+[result:2, answer:2, aspect:install]
+easy to install also small to leave anywhere at your bedroom also very easy to configure for adsl cable or wifi .
+[result:2, answer:2, aspect:configure for adsl cable or wifi]
+easy to install also small to leave anywhere at your bedroom also very easy to configure for adsl cable or wifi .
+[result:2, answer:2, aspect:packing]
+nice packing .
+[result:1, answer:2, aspect:windows]
+i switched to this because i wanted something different , even though i miss windows .
+[result:0, answer:0, aspect:idvd]
+apple no longer includes idvd with the computer and furthermore , apple does n't even offer it anymore !
+[result:2, answer:2, aspect:windows 7]
+i also wanted windows 7 , which this one has .
+[result:0, answer:0, aspect:mac system]
+at first , i feel a little bit uncomfortable in using the mac system .
+[result:1, answer:1, aspect:windows]
+i am used to computers with windows so i am having a little difficulty finding my way around .
+[result:2, answer:2, aspect:works]
+it just works out of the box and you have a lot of cool software included with the os .
+[result:1, answer:2, aspect:software]
+it just works out of the box and you have a lot of cool software included with the os .
+[result:1, answer:1, aspect:os]
+it just works out of the box and you have a lot of cool software included with the os .
+[result:2, answer:2, aspect:works]
+its as advertised on here ... it works great and is not a waste of money !
+[result:2, answer:2, aspect:runs]
+runs like a champ ...
+[result:2, answer:2, aspect:price]
+premium price for the os more than anything else .
+[result:2, answer:1, aspect:os]
+premium price for the os more than anything else .
+[result:2, answer:2, aspect:touch pad]
+i was a little concerned about the touch pad based on reviews , but i 've found it fine to work with .
+[result:0, answer:1, aspect:headphones]
+the sound as mentioned earlier is n't the best , but it can be solved with headphones .
+[result:0, answer:2, aspect:os]
+however , the experience was great since the os does not become unstable and the application will simply shutdown and reopen .
+[result:0, answer:2, aspect:application]
+however , the experience was great since the os does not become unstable and the application will simply shutdown and reopen .
+[result:0, answer:0, aspect:price]
+if you ask me , for this price it should be included .
+[result:0, answer:0, aspect:battery]
+the battery is not as shown in the product photos .
+[result:2, answer:2, aspect:shipping]
+shipping was quick and product described was the product sent and so much more ...
+[result:2, answer:2, aspect:retina display display]
+the retina display display make pictures i took years ago jaw dropping .
+[result:2, answer:2, aspect:compact computing]
+the mac mini is probably the simplest example of compact computing out there .
+[result:1, answer:1, aspect:performance and feature set of the hardware]
+instead , i 'll focus more on the actual performance and feature set of the hardware itself so you can make an educated decision on which mac to buy .
+[result:1, answer:1, aspect:ports]
+other ports include firewire 800 , gigabit ethernet , magsafe port , microphone jack .
+[result:1, answer:1, aspect:firewire 800]
+other ports include firewire 800 , gigabit ethernet , magsafe port , microphone jack .
+[result:1, answer:1, aspect:gigabit ethernet]
+other ports include firewire 800 , gigabit ethernet , magsafe port , microphone jack .
+[result:1, answer:1, aspect:magsafe port]
+other ports include firewire 800 , gigabit ethernet , magsafe port , microphone jack .
+[result:0, answer:1, aspect:microphone jack]
+other ports include firewire 800 , gigabit ethernet , magsafe port , microphone jack .
+[result:1, answer:0, aspect:ventilation system]
+additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .
+[result:2, answer:1, aspect:watching videos]
+additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .
+[result:1, answer:1, aspect:playing steam games]
+additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .
+[result:0, answer:1, aspect:acer support]
+chatting with acer support , i was advised the problem was corrupted operating system files .
+[result:0, answer:1, aspect:operating system files]
+chatting with acer support , i was advised the problem was corrupted operating system files .
+[result:0, answer:1, aspect:keys]
+it 's been a couple weeks since the purchase and i 'm struggle with finding the correct keys -lrb- but that was expected -rrb- .
+[result:0, answer:0, aspect:os]
+many people complain about the new os , and it 's urgent for apple to fix it asap !
+[result:2, answer:2, aspect:lion]
+now that i have upgraded to lion i am much happier about mac os and have just bought an imac for office .
+[result:2, answer:2, aspect:mac os]
+now that i have upgraded to lion i am much happier about mac os and have just bought an imac for office .
+[result:1, answer:2, aspect:ram]
+user upgradeable ram and hdd .
+[result:1, answer:2, aspect:hdd]
+user upgradeable ram and hdd .
+[result:1, answer:2, aspect:cd/dvd player]
+but i wanted the pro for the cd/dvd player .
+[result:2, answer:1, aspect:os.x]
+i was a little worry at first because i do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .
+[result:0, answer:2, aspect:windows]
+i was a little worry at first because i do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .
+[result:1, answer:1, aspect:windows]
+i was a little worry at first because i do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .
+[result:2, answer:1, aspect:os]
+with the softwares supporting the use of other os makes it much better .
+[result:2, answer:1, aspect:softwares]
+with the softwares supporting the use of other os makes it much better .
+[result:2, answer:1, aspect:mac os x 10.8 "mountain lion"]
+i then upgraded to mac os x 10.8 "mountain lion" .
+[result:2, answer:2, aspect:performance]
+i was considering buying the air , but in reality , this one has a more powerful performance and seems much more convenient , even though it 's about .20 inch thicker and 2 lbs heavier .
+[result:1, answer:1, aspect:built in screen size]
+at home and the office it gets plugged into an external 24 '' lcd screen , so built in screen size is not terribly important .
+[result:0, answer:1, aspect:external 24" lcd screen]
+at home and the office it gets plugged into an external 24" lcd screen , so built in screen size is not terribly important .
+[result:0, answer:0, aspect:install software]
+just beware no dvd slot so when i went to install software i had on cd i could n't .
+[result:0, answer:1, aspect:dvd slot]
+just beware no dvd slot so when i went to install software i had on cd i could n't .
+[result:1, answer:1, aspect:word processing program]
+i bought it to be able to dedicate a small , portable laptop to my writing and was surprised to learn that i needed to buy a word processing program to do so .
+[result:0, answer:1, aspect:third-generation cpu ("ivy bridge")]
+this version of macbook pro runs on a third-generation cpu ("ivy bridge") , not the latest fourth-generation haswell cpu the 2013 version has .
+[result:1, answer:1, aspect:fourth-generation haswell cpu]
+this version of macbook pro runs on a third-generation cpu -lrb- `` ivy bridge '' -rrb- , not the latest fourth-generation haswell cpu the 2013 version has .
+[result:0, answer:1, aspect:cd rom]
+no cd rom in the new version there 's no way i 'm spending that kind of money on something has less features than the older version .
+[result:0, answer:0, aspect:features]
+no cd rom in the new version there 's no way i 'm spending that kind of money on something has less features than the older version .
+[result:0, answer:0, aspect:volume]
+the volume is really low to low for a laptopwas not expectin t volume to be so lowan i hate that about this computer
+[result:0, answer:0, aspect:volume]
+the volume is really low to low for a laptopwas not expectin t volume to be so lowan i hate that about this computer
+[result:1, answer:1, aspect:case]
+and its not hard to accidentally bang it against something so i recommend getting a case to protect it .
+[result:2, answer:2, aspect:price]
+i got this at an amazing price from amazon and it arrived just in time .
+[result:0, answer:0, aspect:log into the system]
+every time i log into the system after a few hours , there is this endlessly frustrating process that i have to go through .
+[result:2, answer:1, aspect:21" led screen]
+put a ssd and use a 21" led screen , this set up is silky smooth !
+[result:1, answer:1, aspect:ssd]
+put a ssd and use a 21 '' led screen , this set up is silky smooth !
+[result:2, answer:2, aspect:set up]
+put a ssd and use a 21 '' led screen , this set up is silky smooth !
+[result:0, answer:0, aspect:case]
+the case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .
+[result:0, answer:1, aspect:external power supply]
+the case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .
+[result:1, answer:1, aspect:wireless mouse]
+i had to buy a wireless mouse to go with it , as i am old school and hate the pad , but knew that before i bought it , now it works great , need to get adjusted to the key board , as i am used to a bigger one and pounding .
+[result:0, answer:0, aspect:pad]
+i had to buy a wireless mouse to go with it , as i am old school and hate the pad , but knew that before i bought it , now it works great , need to get adjusted to the key board , as i am used to a bigger one and pounding .
+[result:2, answer:2, aspect:works]
+i had to buy a wireless mouse to go with it , as i am old school and hate the pad , but knew that before i bought it , now it works great , need to get adjusted to the key board , as i am used to a bigger one and pounding .
+[result:2, answer:1, aspect:key board]
+i had to buy a wireless mouse to go with it , as i am old school and hate the pad , but knew that before i bought it , now it works great , need to get adjusted to the key board , as i am used to a bigger one and pounding .
+[result:0, answer:1, aspect:cost of ownership]
+when considering a mac , look at the total cost of ownership and not just the initial price tag .
+[result:0, answer:1, aspect:price tag]
+when considering a mac , look at the total cost of ownership and not just the initial price tag .
+[result:2, answer:2, aspect:features]
+has all the other features i wanted including a vga port , hdmi , ethernet and 3 usb ports .
+[result:2, answer:1, aspect:vga port]
+has all the other features i wanted including a vga port , hdmi , ethernet and 3 usb ports .
+[result:1, answer:1, aspect:hdmi]
+has all the other features i wanted including a vga port , hdmi , ethernet and 3 usb ports .
+[result:2, answer:1, aspect:ethernet]
+has all the other features i wanted including a vga port , hdmi , ethernet and 3 usb ports .
+[result:2, answer:1, aspect:usb ports]
+has all the other features i wanted including a vga port , hdmi , ethernet and 3 usb ports .
+[result:0, answer:0, aspect:rubber pads]
+the only thing i dislike about this laptop are the rubber pads found on the bottom of the computer for grip .
+[result:2, answer:1, aspect:price]
+it 's a decent computer for the price and hopefully it will last a long time .
+[result:2, answer:2, aspect:heat output]
+the nicest part is the low heat output and ultra quiet operation .
+[result:2, answer:2, aspect:operation]
+the nicest part is the low heat output and ultra quiet operation .
+[result:0, answer:2, aspect:upgrade the ram]
+i will upgrade the ram myself -lrb- because with this model you can you can do it -rrb- later on .
+[result:0, answer:2, aspect:price]
+the price is 200 dollars down .
+[result:0, answer:1, aspect:built-in mic]
+this mac mini does not have a built-in mic , and it would seem that its mac os 10.9 does not handle external microphones properly .
+[result:0, answer:0, aspect:mac os 10.9]
+this mac mini does not have a built-in mic , and it would seem that its mac os 10.9 does not handle external microphones properly .
+[result:0, answer:1, aspect:external microphones]
+this mac mini does not have a built-in mic , and it would seem that its mac os 10.9 does not handle external microphones properly .
+[result:2, answer:1, aspect:features]
+a lot of features and shortcuts on the mbp that i was never exposed to on a normal pc .
+[result:2, answer:1, aspect:shortcuts]
+a lot of features and shortcuts on the mbp that i was never exposed to on a normal pc .
+[result:2, answer:2, aspect:ios system]
+was n't sure if i was going to like it much less love it so i went to a local best buy and played around with the ios system on a mac pro and it was totally unique and different .
+[result:0, answer:2, aspect:resolution]
+air has higher resolution but the fonts are small .
+[result:0, answer:0, aspect:fonts]
+air has higher resolution but the fonts are small .
+[result:2, answer:2, aspect:working]
+working with mac is so much easier , so many cool features .
+[result:2, answer:2, aspect:features]
+working with mac is so much easier , so many cool features .
+[result:2, answer:2, aspect:brightness]
+i like the brightness and adjustments .
+[result:2, answer:2, aspect:adjustments]
+i like the brightness and adjustments .
+[result:0, answer:1, aspect:cd/dvd player]
+i only wish this mac had a cd/dvd player built in .
+[result:0, answer:0, aspect:backlit keys]
+the only thing i miss is that my old alienware laptop had backlit keys .
+[result:1, answer:1, aspect:"home/end" type keys]
+the only thing i miss are the "home/end" type keys and other things that i grew accustomed to after so long .
+[result:0, answer:1, aspect:microsoft word]
+so happy with this purchase , i just wish it came with microsoft word .
+[result:2, answer:2, aspect:memory]
+it has enough memory and speed to run my business with all the flexibility that comes with a laptop .
+[result:2, answer:2, aspect:speed]
+it has enough memory and speed to run my business with all the flexibility that comes with a laptop .
+[result:2, answer:2, aspect:flexibility]
+it has enough memory and speed to run my business with all the flexibility that comes with a laptop .
+[result:2, answer:2, aspect:speed]
+the speed , the simplicity , the design . . it is lightyears ahead of any pc i have ever owned .
+[result:2, answer:2, aspect:simplicity]
+the speed , the simplicity , the design . . it is lightyears ahead of any pc i have ever owned .
+[result:2, answer:2, aspect:design]
+the speed , the simplicity , the design . . it is lightyears ahead of any pc i have ever owned .
+[result:2, answer:2, aspect:battery life]
+the battery life is excellent , the display is excellent , and downloading apps is a breeze .
+[result:2, answer:2, aspect:display]
+the battery life is excellent , the display is excellent , and downloading apps is a breeze .
+[result:2, answer:2, aspect:downloading apps]
+the battery life is excellent , the display is excellent , and downloading apps is a breeze .
+[result:2, answer:2, aspect:screen]
+the screen , the software and the smoothness of the operating system .
+[result:2, answer:2, aspect:software]
+the screen , the software and the smoothness of the operating system .
+[result:2, answer:2, aspect:operating system]
+the screen , the software and the smoothness of the operating system .
+[result:1, answer:1, aspect:slim plastic case]
+i have dropped mine a couple times with only a slim plastic case covering it .
+[result:0, answer:1, aspect:recovery usb stick]
+i also made a recovery usb stick .
+[result:0, answer:0, aspect:bass]
+but with this laptop , the bass is very weak and the sound comes out sounding tinny .
+[result:0, answer:0, aspect:sound]
+but with this laptop , the bass is very weak and the sound comes out sounding tinny .
+[result:2, answer:2, aspect:built quality]
+the built quality is really good , i was so happy and excited about this product .
+[result:2, answer:2, aspect:performance]
+i am loving the fast performance also .
+[result:0, answer:0, aspect:bluetooth interface]
+further , this mac mini has a sloppy bluetooth interface -lrb- courtesy of the mac os -rrb- and the range is poor .
+[result:0, answer:0, aspect:mac os]
+further , this mac mini has a sloppy bluetooth interface -lrb- courtesy of the mac os -rrb- and the range is poor .
+[result:0, answer:0, aspect:range]
+further , this mac mini has a sloppy bluetooth interface -lrb- courtesy of the mac os -rrb- and the range is poor .
+[result:0, answer:1, aspect:start menu]
+if you start on the far right side and scroll to your left the start menu will automatically come up .
+[result:0, answer:0, aspect:ram]
+my only gripe would be the need to add more ram .
+[result:1, answer:1, aspect:touch screen]
+fine if you have a touch screen .
+[result:1, answer:1, aspect:games]
+as far as user type - i dabble in everything from games -lrb- wow -rrb- to photoshop , but nothing professionally .
+[result:0, answer:1, aspect:photoshop]
+as far as user type - i dabble in everything from games -lrb- wow -rrb- to photoshop , but nothing professionally .
+[result:1, answer:1, aspect:"wlan" card]
+i re-seated the "wlan" card inside and re-installed the lan device drivers .
+[result:0, answer:1, aspect:lan device drivers]
+i re-seated the `` wlan '' card inside and re-installed the lan device drivers .
+[result:2, answer:2, aspect:built]
+this by far beats any computer out on the market today built well , battery life amazing .
+[result:2, answer:2, aspect:battery life]
+this by far beats any computer out on the market today built well , battery life amazing .
+[result:2, answer:2, aspect:os]
+the os is easy , and offers all kinds of surprises .
+[result:2, answer:1, aspect:apple customer support]
+i had to get apple customer support to correct the problem .
+[result:2, answer:2, aspect:firewire 800]
+a veryimportant feature is firewire 800 which in my experience works better then usb3 -lrb- in pc enabled with usb3 -rrb- i was not originally sold on the mac os i felt it was inferior in many ways to windows 7 .
+[result:2, answer:0, aspect:usb3]
+a veryimportant feature is firewire 800 which in my experience works better then usb3 -lrb- in pc enabled with usb3 -rrb- i was not originally sold on the mac os i felt it was inferior in many ways to windows 7 .
+[result:0, answer:1, aspect:usb3]
+a veryimportant feature is firewire 800 which in my experience works better then usb3 -lrb- in pc enabled with usb3 -rrb- i was not originally sold on the mac os i felt it was inferior in many ways to windows 7 .
+[result:0, answer:0, aspect:mac os]
+a veryimportant feature is firewire 800 which in my experience works better then usb3 -lrb- in pc enabled with usb3 -rrb- i was not originally sold on the mac os i felt it was inferior in many ways to windows 7 .
+[result:2, answer:2, aspect:windows 7]
+a veryimportant feature is firewire 800 which in my experience works better then usb3 -lrb- in pc enabled with usb3 -rrb- i was not originally sold on the mac os i felt it was inferior in many ways to windows 7 .
+[result:2, answer:2, aspect:itunes]
+i like itunes , the apparent security , the mini form factor , all the nice graphics stuff .
+[result:1, answer:2, aspect:security]
+i like itunes , the apparent security , the mini form factor , all the nice graphics stuff .
+[result:1, answer:2, aspect:mini form factor]
+i like itunes , the apparent security , the mini form factor , all the nice graphics stuff .
+[result:2, answer:2, aspect:graphics stuff]
+i like itunes , the apparent security , the mini form factor , all the nice graphics stuff .
+[result:1, answer:0, aspect:card reader]
+the first time i used the card reader it took half an hour and a pair of tweezers to remove the card .
+[result:1, answer:0, aspect:remove the card]
+the first time i used the card reader it took half an hour and a pair of tweezers to remove the card .
+[result:1, answer:1, aspect:spinning hard disk]
+after replacing the spinning hard disk with an ssd drive , my mac is just flying .
+[result:1, answer:2, aspect:ssd drive]
+after replacing the spinning hard disk with an ssd drive , my mac is just flying .
+[result:0, answer:1, aspect:hdmi]
+i know some people complained about hdmi issues but they released a firmware patch to address that issue .
+[result:0, answer:1, aspect:firmware patch]
+i know some people complained about hdmi issues but they released a firmware patch to address that issue .
+[result:1, answer:1, aspect:specs]
+with the needs of a professional photographer i generally need to keep up with the best specs .
+[result:2, answer:2, aspect:packing]
+packing and everything was perfect
+[result:0, answer:1, aspect:mother boards]
+i called toshiba where i gave them the serial number and they informed me that they were having issues with the mother boards .
+[result:0, answer:0, aspect:mother board]
+i seem to be having repeat problems as the mother board in this one is diagnosed as faulty , related to the graphics card .
+[result:0, answer:0, aspect:graphics card]
+i seem to be having repeat problems as the mother board in this one is diagnosed as faulty , related to the graphics card .
+[result:2, answer:1, aspect:4g of ram]
+it also comes with 4g of ram but if you 're like me you want to max that out so i immediately put 8g of ram in her and i 've never used a computer that performs better .
+[result:2, answer:1, aspect:8g of ram]
+it also comes with 4g of ram but if you 're like me you want to max that out so i immediately put 8g of ram in her and i 've never used a computer that performs better .
+[result:2, answer:2, aspect:performs]
+it also comes with 4g of ram but if you 're like me you want to max that out so i immediately put 8g of ram in her and i 've never used a computer that performs better .
+[result:2, answer:2, aspect:virtual home schooling]
+this computer is also awesome for my sons virtual home schooling .
+[result:2, answer:0, aspect:cost]
+cost is more as compared to other brands .
+[result:2, answer:2, aspect:operating system]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:2, answer:2, aspect:size]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:2, answer:2, aspect:weight]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:2, answer:2, aspect:mobility]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:2, answer:2, aspect:durability of the battery]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:2, answer:2, aspect:functions provided by the trackpad]
+also ... - excellent operating system - size and weight for optimal mobility - excellent durability of the battery - the functions provided by the trackpad is unmatched by any other brand -
+[result:0, answer:2, aspect:hardware]
+this hardware seems to be better than the imac in that it is n't $ 1400 and smaller .
+[result:2, answer:1, aspect:software]
+i 've had it for about 2 months now and found no issues with software or updates .
+[result:0, answer:1, aspect:updates]
+i 've had it for about 2 months now and found no issues with software or updates .
+[result:0, answer:1, aspect:disc drive]
+the latest version does not have a disc drive .
+[result:0, answer:2, aspect:screen]
+screen - although some people might complain about low res which i think is ridiculous .
+[result:0, answer:2, aspect:res]
+screen - although some people might complain about low res which i think is ridiculous .
